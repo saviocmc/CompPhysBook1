@@ -1,0 +1,39 @@
+\gdef \the@ipfilectr {@-1}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-2}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-3}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-4}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-5}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}A Section}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}A Subsection}{2}{subsection.1.1.1}
+\contentsline {paragraph}{Cras adipiscing}{2}{section*.6}
+\contentsline {subsubsection}{A Subsubsection}{3}{section*.7}
+\contentsline {subsection}{\numberline {1.1.2}Another Subsection}{4}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}The Second Section}{6}{section.1.2}
+\contentsline {section}{\numberline {1.3}Third Section}{7}{section.1.3}
+\contentsline {section}{\numberline {1.4}Nulla facilisi}{8}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Morbi Consequat}{9}{subsection.1.4.1}
+\gdef \the@ipfilectr {}
+\contentsline {part}{I\hspace {1em}Theory}{10}{part.1}
+\gdef \the@ipfilectr {@-6}
+\contentsline {chapter}{\numberline {2}Plasma Fluid Theory}{11}{chapter.2}
+\contentsline {section}{\numberline {2.1}Section}{11}{section.2.1}
+\contentsline {section}{\numberline {2.2}Section}{12}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Subsection}{13}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Subsection}{13}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Section}{14}{section.2.3}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-7}
+\contentsline {chapter}{\numberline {3}Magnetohydrodynamics}{15}{chapter.3}
+\gdef \the@ipfilectr {}
+\contentsline {part}{II\hspace {1em}Applications}{16}{part.2}
+\gdef \the@ipfilectr {@-8}
+\contentsline {chapter}{\numberline {4}Imaging Devices}{17}{chapter.4}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-9}
+\contentsline {chapter}{\numberline {A}Submission Checklist}{18}{appendix.A}
+\gdef \the@ipfilectr {}

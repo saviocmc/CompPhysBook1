@@ -1,0 +1,22 @@
+\BOOKMARK [-1][-]{part.1}{I Introduction to programming and numerical methods}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Introduction}{part.1}% 2
+\BOOKMARK [1][-]{section.1.1}{Choice of programming language}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Designing programs}{chapter.1}% 4
+\BOOKMARK [0][-]{chapter.2}{Introduction to C++ and Fortran}{part.1}% 5
+\BOOKMARK [1][-]{section.2.1}{Getting Started}{chapter.2}% 6
+\BOOKMARK [2][-]{subsection.2.1.1}{Scientific hello world}{section.2.1}% 7
+\BOOKMARK [1][-]{section.2.2}{Representation of Integer Numbers}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.2.1}{Fortran codes}{section.2.2}% 9
+\BOOKMARK [1][-]{section.2.3}{Real Numbers and Numerical Precision}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.3.1}{Representation of real numbers}{section.2.3}% 11
+\BOOKMARK [2][-]{subsection.2.3.2}{Machine numbers}{section.2.3}% 12
+\BOOKMARK [1][-]{section.2.4}{Programming Examples on Loss of Precision and Round-off Errors}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.4.1}{Algorithms for e-x}{section.2.4}% 14
+\BOOKMARK [2][-]{subsection.2.4.2}{Fortran codes}{section.2.4}% 15
+\BOOKMARK [2][-]{subsection.2.4.3}{Further examples}{section.2.4}% 16
+\BOOKMARK [1][-]{section.2.5}{Additional Features of C++ and Fortran }{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.5.1}{Operators in C++}{section.2.5}% 18
+\BOOKMARK [2][-]{subsection.2.5.2}{Pointers and arrays in C++.}{section.2.5}% 19
+\BOOKMARK [2][-]{subsection.2.5.3}{Macros in C++}{section.2.5}% 20
+\BOOKMARK [2][-]{subsection.2.5.4}{Structures in C++ and TYPE in Fortran }{section.2.5}% 21
+\BOOKMARK [1][-]{section.2.6}{Exercises}{chapter.2}% 22

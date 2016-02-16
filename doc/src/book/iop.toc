@@ -1,0 +1,13 @@
+\gdef \the@ipfilectr {@-1}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-2}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-3}
+\contentsline {part}{I\hspace {1em}Introduction to programming and numerical methods}{1}{part.1}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-4}
+\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Choice of programming language}{5}{section.1.1}
+\contentsline {subsubsection}{Future plans}{6}{section*.3}
+\contentsline {section}{\numberline {1.2}Designing programs}{6}{section.1.2}
+\gdef \the@ipfilectr {}
