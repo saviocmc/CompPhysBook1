@@ -14,7 +14,7 @@
 \gdef \the@ipfilectr {@-5}
 \contentsline {chapter}{\numberline {2}Introduction to C++ and Fortran}{11}{chapter.2}
 \contentsline {section}{\numberline {2.1}Getting Started}{11}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Scientific hello world}{13}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.1}Scientific hello world}{14}{subsection.2.1.1}
 \contentsline {section}{\numberline {2.2}Representation of Integer Numbers}{19}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Fortran codes}{22}{subsection.2.2.1}
 \contentsline {section}{\numberline {2.3}Real Numbers and Numerical Precision}{23}{section.2.3}
@@ -31,5 +31,10 @@
 \contentsline {subsection}{\numberline {2.5.2}Pointers and arrays in C++.}{43}{subsection.2.5.2}
 \contentsline {subsection}{\numberline {2.5.3}Macros in C++}{45}{subsection.2.5.3}
 \contentsline {subsection}{\numberline {2.5.4}Structures in C++ and TYPE in Fortran }{47}{subsection.2.5.4}
-\contentsline {section}{\numberline {2.6}Exercises}{49}{section.2.6}
+\contentsline {section}{\numberline {2.6}Reading and writing to file}{49}{section.2.6}
+\contentsline {subsubsection}{Initializations and main program}{52}{section*.6}
+\contentsline {subsubsection}{The function initialize}{54}{section*.7}
+\contentsline {subsubsection}{The function second\_derivative}{55}{section*.8}
+\contentsline {subsubsection}{The output function}{55}{section*.9}
+\contentsline {section}{\numberline {2.7}Exercises}{59}{section.2.7}
 \gdef \the@ipfilectr {}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 FEB 2016 09:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 FEB 2016 10:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1444,40 +1444,15 @@ LaTeX Font Info:    Font shape `TS1/fve/m/n' will be
 ]
 \openout2 = `part1.aux'.
 
- (./part1.tex
-
-! LaTeX Error: Environment partbacktext undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 \begin{partbacktext}
-                        
-? s
-OK, entering \scrollmode...
-[1
+ (./part1.tex [1
 
 
 
-]
-
-! LaTeX Error: \begin{document} ended by \end{partbacktext}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 \end{partbacktext}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) [2]
+]) [2]
 \openout2 = `chapters/Chapter1/chapter1.aux'.
 
- (./chapters/Chapter1/chapter1.tex
+
+(./chapters/Chapter1/chapter1.tex
 Chapter 1.
 
 LaTeX Warning: Citation `top101' on page 3 undefined on input line 30.
@@ -1613,43 +1588,9 @@ Chapter 2.
 ! Undefined control sequence.
 l.3 \abstract
              {This chapters aims at catching two birds with a stone;  to int...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-LaTeX Font Info:    Font shape `T1/fve/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 22.
-
-LaTeX Warning: Citation `flowers' on page 11 undefined on input line 22.
-
-
-LaTeX Warning: Citation `barton' on page 11 undefined on input line 22.
-
-
-LaTeX Warning: Citation `stoustrup1997' on page 11 undefined on input line 22.
-
-
-LaTeX Warning: Citation `f95ref' on page 11 undefined on input line 22.
-
-
-LaTeX Warning: Citation `metcalf1996' on page 11 undefined on input line 22.
-
-
-LaTeX Warning: Citation `marshall1995' on page 11 undefined on input line 22.
-
-
-LaTeX Warning: Citation `f2003' on page 11 undefined on input line 22.
-
-
-LaTeX Warning: Citation `langtangen2006' on page 11 undefined on input line 22.
-
-
-
-LaTeX Warning: Citation `langtangen2009' on page 11 undefined on input line 22.
-
-
+? s
+OK, entering \scrollmode...
 [11
 
 
@@ -1657,85 +1598,47 @@ LaTeX Warning: Citation `langtangen2009' on page 11 undefined on input line 22.
 
 ]
 
-LaTeX Warning: Float too large for page by 80.44699pt on input line 158.
+LaTeX Warning: Float too large for page by 80.44699pt on input line 149.
 
-[12]
+[12] [13]
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 166.
+(Font)              scaled to size 8.99994pt on input line 157.
 LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
-(Font)              scaled to size 8.99994pt on input line 167.
+(Font)              scaled to size 8.99994pt on input line 158.
 
 
-LaTeX Warning: Reference `chap:differentiate' on page 13 undefined on input lin
-e 171.
+LaTeX Warning: Reference `chap:differentiate' on page 14 undefined on input lin
+e 162.
 
 LaTeX Font Info:    Font shape `T1/fvm/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 190.
-[13] [14]
-Overfull \hbox (55.52518pt too wide) in paragraph at lines 218--220
+(Font)              scaled to size 8.99994pt on input line 180.
+[14]
+Overfull \hbox (55.52518pt too wide) in paragraph at lines 208--210
 []\T1/fve/m/n/12 This means that we would run the pro-grams as []\T1/fvm/m/n/12
  mhjensen@compphys:./myprogram.exe 0.3\T1/fve/m/n/12 .
  []
 
 
-Overfull \hbox (8.53154pt too wide) in paragraph at lines 218--220
+Overfull \hbox (8.53154pt too wide) in paragraph at lines 208--210
 \T1/fve/m/n/12 for sin-gle pre-ci-sion real num-bers and [] \T1/fvm/m/n/12 doub
 le \T1/fve/m/n/12 for dou-ble pre-ci-sion. The function[] \T1/fvm/m/n/12 atof
  []
 
 [15]
 
-LaTeX Warning: Reference `chap:differentiate' on page 16 undefined on input lin
-e 272.
-
-
 ! LaTeX Error: Environment svgraybox undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.310 \begin{svgraybox}
+l.300 \begin{svgraybox}
                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{svgraybox}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.315 \end{svgraybox}
-                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [16]
-LaTeX Font Info:    Try loading font information for TS1+fvm on input line 333.
-
- (/usr/local/texlive/2015/texmf-dist/tex/latex/bera/ts1fvm.fd
-File: ts1fvm.fd 2004/09/07 scalable font definitions for TS1/fvm.
-)
-LaTeX Font Info:    Font shape `TS1/fvm/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 333.
-
-
-! LaTeX Error: Environment svgraybox undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.364 \begin{svgraybox}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 
 ! LaTeX Error: \begin{document} ended by \end{svgraybox}.
 
@@ -1743,11 +1646,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.369 \end{svgraybox}
+l.305 \end{svgraybox}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
+
+LaTeX Font Info:    Try loading font information for TS1+fvm on input line 322.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/bera/ts1fvm.fd
+File: ts1fvm.fd 2004/09/07 scalable font definitions for TS1/fvm.
+)
+LaTeX Font Info:    Font shape `TS1/fvm/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 322.
 
 
 ! LaTeX Error: Environment svgraybox undefined.
@@ -1756,7 +1667,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.376 \begin{svgraybox}
+l.353 \begin{svgraybox}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1770,7 +1681,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.394 \end{svgraybox}
+l.358 \end{svgraybox}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1783,7 +1694,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.400 \begin{svgraybox}
+l.365 \begin{svgraybox}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1796,7 +1707,33 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.417 \end{svgraybox}
+l.383 \end{svgraybox}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment svgraybox undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.389 \begin{svgraybox}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{svgraybox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.406 \end{svgraybox}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1804,17 +1741,17 @@ or  <return>  to continue without it.
 
 [18]
 
-LaTeX Warning: Citation `langtangen2009' on page 19 undefined on input line 433
+LaTeX Warning: Citation `langtangen2009' on page 19 undefined on input line 422
 .
 
 
-Overfull \hbox (31.55998pt too wide) in paragraph at lines 469--477
+Overfull \hbox (31.55998pt too wide) in paragraph at lines 458--466
 []\T1/fve/m/n/12 In the above ex-am-ples one bit is used to store the sign of t
 he vari-able age_of_participant
  []
 
 [19]
-Overfull \hbox (9.39105pt too wide) detected at line 518
+Overfull \hbox (9.39105pt too wide) detected at line 507
 \OT1/ztmcm/m/n/12 (110100001)[] = 1 \OMS/ztmcm/m/n/12 ^^B \OT1/ztmcm/m/n/12 2[]
  + 1 \OMS/ztmcm/m/n/12 ^^B \OT1/ztmcm/m/n/12 2[] + 0 \OMS/ztmcm/m/n/12 ^^B \OT1
 /ztmcm/m/n/12 2[] + 1 \OMS/ztmcm/m/n/12 ^^B \OT1/ztmcm/m/n/12 2[] + 0 \OMS/ztmc
@@ -1832,7 +1769,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.630 \begin{svgraybox}
+l.618 \begin{svgraybox}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1845,14 +1782,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.636 \end{svgraybox}
+l.624 \end{svgraybox}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [22] [23] [24]
-Overfull \hbox (8.03177pt too wide) detected at line 802
+Overfull \hbox (8.03177pt too wide) detected at line 790
 \OT1/ztmcm/m/n/12 (1001\OML/ztmcm/m/it/12 :\OT1/ztmcm/m/n/12 11101)[] = 1 \OMS/
 ztmcm/m/n/12 ^^B \OT1/ztmcm/m/n/12 2[] + 0 \OMS/ztmcm/m/n/12 ^^B \OT1/ztmcm/m/n
 /12 2[] + 0 \OMS/ztmcm/m/n/12 ^^B \OT1/ztmcm/m/n/12 2[] + 1 \OMS/ztmcm/m/n/12 ^
@@ -1864,36 +1801,36 @@ m/n/12 2[] + 0 \OMS/ztmcm/m/n/12 ^^B \OT1/ztmcm/m/n/12 2[] + 1 \OMS/ztmcm/m/n/1
 
 [25] [26]
 
-LaTeX Warning: Citation `kincaid' on page 27 undefined on input line 933.
+LaTeX Warning: Citation `kincaid' on page 27 undefined on input line 921.
 
 [27]
 
 LaTeX Warning: Reference `chap:differentiate' on page 28 undefined on input lin
-e 1001.
+e 989.
 
 [28]
 
-LaTeX Warning: Citation `kincaid' on page 29 undefined on input line 1051.
+LaTeX Warning: Citation `kincaid' on page 29 undefined on input line 1039.
 
 
-LaTeX Warning: Citation `kincaid' on page 29 undefined on input line 1057.
+LaTeX Warning: Citation `kincaid' on page 29 undefined on input line 1045.
 
 [29]
-Overfull \hbox (1.32466pt too wide) in paragraph at lines 1082--1082
+Overfull \hbox (1.32466pt too wide) in paragraph at lines 1070--1070
 []\T1/fve/b/n/17.28 Programming Ex-am-ples on Loss of Pre-ci-sion and
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1084.
+(hyperref)                removing `math shift' on input line 1072.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 1084.
+(hyperref)                removing `superscript' on input line 1072.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1084.
+(hyperref)                removing `math shift' on input line 1072.
 
 [30]
 Overfull \hbox (35.57895pt too wide) has occurred while \output is active
@@ -1902,9 +1839,12 @@ RRORS \T1/fve/m/n/12 31
  []
 
 [31]
+LaTeX Font Info:    Font shape `T1/fve/b/n' will be
+(Font)              scaled to size 8.99994pt on input line 1200.
+
 
 LaTeX Warning: Reference `chap:integrate' on page 32 undefined on input line 12
-12.
+00.
 
 [32]
 Overfull \hbox (35.57895pt too wide) has occurred while \output is active
@@ -1915,7 +1855,7 @@ RRORS \T1/fve/m/n/12 33
 [33] [34]
 
 LaTeX Warning: Reference `chap:differentiate' on page 35 undefined on input lin
-e 1364.
+e 1352.
 
 
 Overfull \hbox (35.57895pt too wide) has occurred while \output is active
@@ -1942,13 +1882,13 @@ RRORS \T1/fve/m/n/12 39
  []
 
 [39] [40] [41] [42]
-Overfull \hbox (76.63278pt too wide) in paragraph at lines 1829--1843
+Overfull \hbox (76.63278pt too wide) in paragraph at lines 1817--1831
  [] 
  []
 
 [43]
 LaTeX Font Info:    Font shape `T1/fve/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 1863.
+(Font)              scaled to size 9.85492pt on input line 1851.
 
 
 ! LaTeX Error: Environment svgraybox undefined.
@@ -1957,7 +1897,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1900 \begin{svgraybox}
+l.1888 \begin{svgraybox}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1970,7 +1910,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1908 \end{svgraybox}
+l.1896 \end{svgraybox}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1984,7 +1924,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1989 \begin{svgraybox}
+l.1977 \begin{svgraybox}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1997,7 +1937,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2000 \end{svgraybox}
+l.1988 \end{svgraybox}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2006,111 +1946,63 @@ or  <return>  to continue without it.
 [45]
 
 LaTeX Warning: Reference `chap:linalgebra' on page 46 undefined on input line 2
-066.
+054.
 
 [46]
 
 LaTeX Warning: Reference `chap:linalgebra' on page 47 undefined on input line 2
-116.
+104.
 
 [47]
-Overfull \hbox (65.94415pt too wide) in paragraph at lines 2155--2160
+Overfull \hbox (65.94415pt too wide) in paragraph at lines 2143--2148
 \T1/fve/m/n/12 vari-ables as well. For elec-trons we could write []\T1/fvm/m/n/
 12 struct single_particle_descript electrons;
  []
 
 [48]
-Overfull \hbox (147.3794pt too wide) in paragraph at lines 2174--2178
+Overfull \hbox (147.3794pt too wide) in paragraph at lines 2162--2166
 \T1/fve/m/n/12 vari-ables [] \T1/fvm/m/n/12 struct single_particle_descript pro
 tons \T1/fve/m/n/12 and [] \T1/fvm/m/n/12 struct single_particle_descript neutr
 ons\T1/fve/m/n/12 . 
  []
 
 
-Overfull \hbox (131.23347pt too wide) in paragraph at lines 2191--2196
+Overfull \hbox (131.23347pt too wide) in paragraph at lines 2179--2184
 \T1/fvm/m/n/12 neutrons \T1/fve/m/n/12 through the state-ment []\T1/fvm/m/n/12 
 TYPE (single_particle_descript) :: electrons, protons, neutrons\T1/fve/m/n/12 .
 
  []
 
 
-! LaTeX Error: Environment prob undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2201 \begin{prob}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{prob}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2206 \end{prob}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment prob undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2210 \begin{prob}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{prob}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2234 \end{prob}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment prob undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2238 \begin{prob}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Overfull \hbox (5.50258pt too wide) in paragraph at lines 2190--2198
+\T1/fve/m/n/12 Furthermore, we will use this sec-tion to in-tro-duce three im-p
+or-tant C++-programming
+ []
 
 [49]
+Overfull \hbox (20.21648pt too wide) in paragraph at lines 2236--2241
+\T1/fve/m/n/12 new value for a vari-able. A typ-i-cal call could be []\T1/fvm/m
+/n/12 scanf(``%lf\n'', &speed_of_sound);\T1/fve/m/n/12 . 
+ []
 
-! LaTeX Error: \begin{document} ended by \end{prob}.
+[50] [51] [52] [53]
+Overfull \hbox (148.64983pt too wide) in paragraph at lines 2453--2459
+\T1/fve/m/n/12 and that we trans-fer the ad-dress of the first el-e-ments. The 
+other vari-ables []\T1/fvm/m/n/12 int  number_of_steps, double  x;
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2260 \end{prob}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+[54] [55]
+LaTeX Font Info:    Font shape `TS1/fvm/m/sl' will be
+(Font)              scaled to size 8.99994pt on input line 2556.
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 2582.
+ [56] [57]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58]
+
+LaTeX Warning: Reference `chap:linalgebra' on page 59 undefined on input line 2
+753.
 
 
 ! LaTeX Error: Environment prob undefined.
@@ -2119,7 +2011,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2263 \begin{prob}
+l.2768 \begin{prob}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2132,7 +2024,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2269 \end{prob}
+l.2773 \end{prob}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2145,7 +2037,34 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2273 \begin{prob}
+l.2777 \begin{prob}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[59]
+
+! LaTeX Error: \begin{document} ended by \end{prob}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2801 \end{prob}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment prob undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2805 \begin{prob}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2158,7 +2077,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2281 \end{prob}
+l.2827 \end{prob}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2171,7 +2090,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2284 \begin{prob}
+l.2830 \begin{prob}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2184,7 +2103,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2291 \end{prob}
+l.2836 \end{prob}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2197,7 +2116,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2294 \begin{prob}
+l.2840 \begin{prob}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2210,7 +2129,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2298 \end{prob}
+l.2848 \end{prob}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2223,13 +2142,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2301 \begin{prob}
+l.2851 \begin{prob}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[50]
+[60]
 
 ! LaTeX Error: \begin{document} ended by \end{prob}.
 
@@ -2237,7 +2156,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2381 \end{prob}
+l.2858 \end{prob}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2250,14 +2169,67 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2384 \begin{prob}
+l.2861 \begin{prob}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{prob}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2865 \end{prob}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment prob undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2868 \begin{prob}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[61]
+
+! LaTeX Error: \begin{document} ended by \end{prob}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2948 \end{prob}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment prob undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2951 \begin{prob}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.2395  \be
+l.2962  \be
             \label{eq:exercise210}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2268,13 +2240,13 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.2396     x^
+l.2963     x^
              2-4x-1=0,
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.2397  \ee
+l.2964  \ee
            
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2289,7 +2261,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2401  \[
+l.2968  \[
           
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2298,7 +2270,7 @@ or  <return>  to continue without it.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.2403  \]
+l.2970  \]
           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2313,7 +2285,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2403  \]
+l.2970  \]
           
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2322,7 +2294,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.2403  \]
+l.2970  \]
           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2331,12 +2303,12 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (6.8432pt too wide) in paragraph at lines 2387--2408
+Overfull \hbox (6.8432pt too wide) in paragraph at lines 2954--2975
 []\T1/fve/m/n/12 Often, es-pe-cially when one en-coun-ters sin-gu-lar be-hav-io
 rs, one may need to rewrite
  []
 
-[51]
+[62]
 
 ! LaTeX Error: \begin{document} ended by \end{prob}.
 
@@ -2344,7 +2316,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2442 \end{prob}
+l.3009 \end{prob}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2353,7 +2325,7 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.2442 \end{prob}
+l.3009 \end{prob}
                  
 Things are pretty mixed up, but I think the worst is over.
 
@@ -2364,21 +2336,21 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2445 \begin{prob}
+l.3012 \begin{prob}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[52]
 
-LaTeX Warning: Reference `chap:integrate' on page 53 undefined on input line 24
-79.
-
-
-LaTeX Warning: Reference `sec:gnuplot' on page 53 undefined on input line 2487.
+LaTeX Warning: Reference `chap:integrate' on page 63 undefined on input line 30
+46.
 
 
+LaTeX Warning: Reference `sec:gnuplot' on page 63 undefined on input line 3054.
+
+
+[63]
 
 ! LaTeX Error: \begin{document} ended by \end{prob}.
 
@@ -2386,7 +2358,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2492 \end{prob}
+l.3059 \end{prob}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2399,13 +2371,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2495 \begin{prob}
+l.3062 \begin{prob}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[53]
+[64]
 
 ! LaTeX Error: \begin{document} ended by \end{prob}.
 
@@ -2413,13 +2385,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2567 \end{prob}
+l.3134 \end{prob}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) [54] (./book.bbl)
+) [65] (./book.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
  (./book.aux (./Preface.aux) (./Symbols.aux) (./part1.aux)
@@ -2427,7 +2399,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
 Package rerunfilecheck Info: File `book.out' has not changed.
-(rerunfilecheck)             Checksum: EEA91BC94E4779F2FB007B82202587AA;1636.
+(rerunfilecheck)             Checksum: AFBAFC97BCA31E1F8D32D6D41E66CE04;1710.
 
 
 LaTeX Warning: There were undefined references.
@@ -2435,18 +2407,15 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 198.
  ) 
 Here is how much of TeX's memory you used:
- 27066 strings out of 493089
- 511364 string characters out of 6134842
+ 27478 strings out of 493089
+ 517231 string characters out of 6134842
  705974 words of memory out of 5000000
- 29279 multiletter control sequences out of 15000+600000
- 103700 words of font info for 163 fonts, out of 8000000 for 9000
+ 29422 multiletter control sequences out of 15000+600000
+ 104614 words of font info for 166 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,11n,122p,592b,1836s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exi
+pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exi
 st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist
-, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist
 , replaced by a fixed one
@@ -2484,10 +2453,10 @@ pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texliv
 e/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on book.pdf (64 pages, 298056 bytes).
+Output written on book.pdf (75 pages, 341284 bytes).
 PDF statistics:
- 1168 PDF objects out of 1200 (max. 8388607)
- 1073 compressed objects within 11 object streams
- 627 named destinations out of 1000 (max. 500000)
- 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1537 PDF objects out of 1728 (max. 8388607)
+ 1427 compressed objects within 15 object streams
+ 894 named destinations out of 1000 (max. 500000)
+ 185 words of extra memory for PDF output out of 10000 (max. 10000000)
 

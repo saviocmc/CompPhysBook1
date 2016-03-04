@@ -10,16 +10,7 @@ The programs we discuss are tailored to these aims. You will also learn to }
 
 
 
-In programming languages\footnote{For more detailed texts on C++ programming in engineering and
-science are the books by Flowers \cite{flowers} and Barton and Nackman \cite{barton}.
-The classic text on C++ programming is the book of Bjarne Stoustrup \cite{stoustrup1997}.
-The Fortran 95 standard is well documented in Refs.~\cite{f95ref,metcalf1996,marshall1995} 
-while the 
-new details of Fortran 2003 can be found in Ref.~\cite{f2003}.
-The reader should note that this is not a text on C++ or Fortran. 
-It is therefore important than one tries to find additional literature on these programming languages. 
-Good Python texts on scientific computing 
-are \cite{langtangen2006,langtangen2009}.}
+In programming languages
 we encounter data entities such
 as constants, variables, results of evaluations of functions
 etc. Common to these objects is that they can be represented
@@ -174,8 +165,7 @@ more detail in chapter \ref{chap:differentiate}.
 Our first  programming encounter is the 'classical' one, found in almost every
 textbook on computer languages, the 'hello world' code, here in a scientific disguise. 
 We present first the C version.
-%\begin{lstlisting}[title={programs/chapter2/program1.cpp}]
-\begin{lstlisting}[title={\url{http://folk.uio.no/mhjensen/compphys/programs/chapter02/cpp/program1.cpp}}]
+\begin{lstlisting}[title={\href{{https://github.com/CompPhysics/CompPhysBook1/tree/master/doc/Programs/Chapter2/cpp/program1.cpp}}{Click here to view code}}]
 /* comments in C begin like this and end with */
 #include <stdlib.h> /* atof function */
 #include <math.h>   /* sine function */
@@ -224,7 +214,7 @@ in many C-inspired languages (Perl, Python, awk, partly C++).
 
 In C++ this program can be written as 
 
-\begin{lstlisting}
+\begin{lstlisting}[title={\href{{https://github.com/CompPhysics/CompPhysBook1/tree/master/doc/Programs/Chapter2/cpp/program2.cpp}}{Click here to view code}}]
 // A comment line begins like this in C++ programs
 using namespace std;
 #include <iostream>
@@ -252,7 +242,7 @@ way to collect
 all functions defined in C++ libraries. If we omit this declaration on top of the program
 we would have to add the declaration \verb?std? in front of  
 \verb?cout? or \verb?cin?.  Our program would then read
-\begin{lstlisting}
+\begin{lstlisting}[title={\href{{https://github.com/CompPhysics/CompPhysBook1/tree/master/doc/Programs/Chapter2/cpp/program3.cpp}}{Click here to view code}}]
 // Hello world code without using namespace std
 #include <iostream>
 #include <cstdlib>
@@ -269,9 +259,9 @@ int main (int argc, char* argv[])
 \end{lstlisting}
 
 Another feature which is worth noting is that we have skipped exception handlings here.
-In chapter \ref{chap:differentiate} we discuss examples that test our input from the command
+Later in this chapter we discuss examples that test our input from the command
 line.  But it is easy to add such a feature, as shown in our modified hello world program
-\begin{lstlisting}
+\begin{lstlisting}[title={\href{{https://github.com/CompPhysics/CompPhysBook1/tree/master/doc/Programs/Chapter2/cpp/program4.cpp}}{Click here to view code}}]
 // Hello world code with exception handling
 using namespace std;
 #include <cstdlib>
@@ -322,11 +312,10 @@ and produces the executable \verb$myprogram$ .
 
 The corresponding Fortran  code is 
 \lstset{language=[90]Fortran}
-%\begin{lstlisting}[title={programs/chapter2/program1.f90}]
-\begin{lstlisting}[title={\url{http://folk.uio.no/mhjensen/compphys/programs/chapter02/Fortran/program1.f90}}]
+\begin{lstlisting}[title={\href{{https://github.com/CompPhysics/CompPhysBook1/tree/master/doc/Programs/Chapter2/fortran/program1.f90}}{Click here to view code}}]
 PROGRAM shw
    IMPLICIT NONE
-   REAL (KIND =8) :: r         ! Input number
+   REAL (KIND=8) :: r         ! Input number
    REAL (KIND=8)  :: s         ! Result
 
 !  Get a number from user
@@ -363,8 +352,8 @@ when using Fortran.
 We call the Fortran compiler (using free format) through 
 \begin{svgraybox}
 \begin{verbatim}
-f90 -c -free myprogram.f90
-f90 -o myprogram.x  myprogram.o
+gfortran -c -free myprogram.f90
+gfortran -o myprogram.x  myprogram.o
 \end{verbatim}
 \end{svgraybox}
 Under Linux/Unix it is often convenient to create a
@@ -402,7 +391,7 @@ For Fortran, a similar makefile is
 # General makefile for F90 - choose PROG =   name of given program
 
 # Here we define compiler options, libraries and the  target
-F90= f90 
+F90= gfortran 
 PROG= myprogram
 
 # Here we make the executable file 
@@ -418,7 +407,7 @@ ${PROG}.o :       ${PROG}.f90
 
 Finally, for the sake of completeness, we list the corresponding Python code
 \lstset{language=python}
-\begin{lstlisting}[title={\url{http://folk.uio.no/mhjensen/compphys/programs/chapter02/python/program1.py}}]
+\begin{lstlisting}[title={\href{{https://github.com/CompPhysics/CompPhysBook1/tree/master/doc/Programs/Chapter2/python/program1.cpp}}{Click here to view code}}]
 #!/usr/bin/env python
 
 import sys, math
@@ -543,8 +532,7 @@ employ the modulus operation (with division by 2), which in C++ is given by the 
 In Fortran  we would call the function
 \verb? MOD(a,2)? in order to obtain the remainder of a division by $2$. 
 \lstset{language=c++}
-%\begin{lstlisting}[title={programs/chapter2/program2.cpp}]
-\begin{lstlisting}[title={\url{http://folk.uio.no/mhjensen/compphys/programs/chapter02/cpp/program2.cpp}}]
+\begin{lstlisting}[title={\href{{https://github.com/CompPhysics/CompPhysBook1/tree/master/doc/Programs/Chapter2/cpp/program5.cpp}}{Click here to view code}}]
 using namespace std;
 #include <iostream>
 
@@ -709,7 +697,7 @@ one from serious problems.
 Since we are interested in the precision of the numerical
 calculus, we need to understand how computers
 represent real and integer numbers.
-Most computers deal with real numbers in the binary system, or octal and hexadecimal,
+Most computers deal with real numbers in the binary, octal and/or hexadecimal systems,
 in contrast to the decimal system that we humans 
 prefer to use. 
 The binary system uses 2 as the base, in much the same way that the
@@ -2195,9 +2183,588 @@ More detailed examples on the use of these variable declarations, classes and te
 in subsequent chapters.
 
 
+\section{Reading and writing to file}
+
+
+
+Furthermore, we will use this section to introduce three
+important C++-programming features, namely reading and writing to
+a file, call by reference and call by value, and dynamic memory allocation.
+We are also going to split the tasks performed
+by the program into subtasks. We define one function
+which reads in the input data, one which calculates the second derivative
+and a final function
+which writes the results to file.
+
+
+Let us look at a simple case first, the use of 
+\verb?printf? and \verb?scanf?. If we wish to print
+a  variable defined as  
+\verb?double speed_of_sound;?
+we could  for example write 
+\begin{lstlisting}
+double speed_of_sound;
+.....
+printf(``speed_of_sound = %lf\n'', speed_of_sound);
+\end{lstlisting}
+
+In this case we say that we transfer the value of this specific variable
+to the function \verb?printf?. The function \verb?printf? 
+{\em can however not change the value of this variable} 
+(there is no need to do so in this case). 
+Such a call
+of a specific  function is called {\em call by value}. 
+The crucial aspect to keep in mind is that the value of this
+specific variable does not change in the called function.
+
+When do we use call by value? And why care at all? 
+We do actually care, because if a called function has the possibility
+to change the value of a variable when this is not desired,
+calling another function with this variable may lead to totally wrong
+results. In the worst cases you may even not be able to spot where the
+program goes wrong. 
+
+We do however use call by value when a called function
+simply receives the value of the given variable without changing it.
+
+If we however wish to update the value of say an array 
+in a called function, we refer to this call as {\bf call by reference}.
+What is transferred then is the address of the first element of the array,
+and the called function has now access to where that specific
+variable 'lives' and can thereafter change its value. 
+
+The function \verb?scanf? is then an example of a function which receives
+the address of a variable and is allowed to modify it. Afterall, when calling
+\verb?scanf? we are expecting a new value for a variable. 
+A typical call could be
+\verb?scanf(``%lf\n'', &speed_of_sound);?.
+
+Consider now the following program
+\lstset{language=c++}
+\begin{lstlisting}
+1  using namespace std;
+2  # include  <iostream> 
+3  // begin main function
+4  int main(int argc, char argv[])
+   {
+5     int a;                                     
+6     int *b;                                    
+7     a = 10;                                     
+8     b = new int[10];
+9     for( int i = 0; i < 10; i++){
+10       b[i] = i;
+11    }
+12    func(a,b);
+13    return 0;
+14 }   // end of main function   
+15 //   definition of the function func
+16 void func(int x, int *y)
+17 {
+18    x += 7; 
+19    *y += 10;
+20    y[6] += 10;
+21    return;
+22 } // end function func
+\end{lstlisting}
+There are several features to be noted.
+\begin{itemize}
+%
+\item Lines 5 and 6: Declaration of two variables a and b. The
+compiler reserves two locations in memory. The size of the location
+depends on the type of variable. Two properties are important for
+these locations -- the address in memory and the content in the
+%
+\item Line 7: The value of a is now 10.
+%
+\item Line 8: Memory to store 10 integers is reserved. The
+address to the first location is stored in b. The address of element
+number 6 is given by the expression (b + 6). 
+%
+\item Line 10: All 10 elements of b are given values: b[0] = 0, b[1] =
+1, ....., b[9] = 9;
+% 
+\item Line 12: The main() function calls the function func() and the
+program counter transfers to the first statement in func().
+With respect to data the following happens. The content of a 
+(= 10) and the content of b (a memory address) are copied to a stack
+(new memory location) associated with the function func()
+%
+\item Line 16: The variable x and y are local variables in
+func(). They have the values -- x = 10, y = address of the first
+element in b in the main() program.
+%
+\item Line 18: The local variable x stored in the stack memory is
+changed to 17. Nothing happens with the value a in main().
+% 
+\item Line 19: The value of y is an address and the symbol *y stands for 
+the position in memory which has this address. The value in this
+location is now increased by 10. This means that the value of b[0] in
+the main program is equal to 10. Thus func() has modified a value in main().
+%
+\item Line 20: This statement has the same effect as line 9 except
+that it modifies element b[6] in main() by adding a value of 10 to
+what was there originally, namely 6.
+% 
+\item Line 21: The program counter returns to main(), the next
+expression after {\sl func(a,b);}. All data on the stack associated
+with func() are destroyed.
+%
+\item The value of a is transferred to func() and stored
+in a new memory location called x. Any modification of x in func()
+does not affect in any way the value of a in main(). This is called {\bf
+transfer of data by value}. On the other hand the next argument in
+func() is an address which is transferred to func(). This address can
+be used to modify the corresponding value in main(). In the programming  language C
+it is expressed as a modification of the value 
+which y points to, namely the first element of b.
+This is called {\bf transfer of data by reference} and is a method to
+transfer data back to the calling function, in this case  main().
+% 
+\end{itemize}
+C++ allows however the programmer to use solely call by reference
+(note that call by reference is implemented as pointers).
+To see the difference between C and C++, consider the following simple
+examples. In C we would write
+\lstset{language=c++}
+\begin{lstlisting}
+   int n; n =8;
+   func(&n); /* &n is a pointer to n */
+   ....
+   void func(int *i)
+   {
+     *i = 10; /* n is changed to 10 */
+     ....
+   }
+\end{lstlisting}
+whereas in C++ we would write
+
+\begin{lstlisting}
+   int n; n =8;
+   func(n); // just transfer n itself
+   ....
+   void func(int& i)
+   {
+     i = 10; // n is changed to 10
+     ....
+   }
+\end{lstlisting}
+Note well that the way we have defined the input to the function 
+\verb?func(int& i)? or \verb?func(int *i)? decides how we transfer
+variables to a specific function.
+The reason why we emphasize the difference between call by value and call 
+by reference is that it allows the programmer to avoid pitfalls
+like unwanted changes of variables. However, many people feel that this
+reduces the readability of the code.
+It is more or less common in C++ to use call by reference, since it gives a 
+much cleaner code. Recall also that behind the curtain references are usually implemented as pointers. 
+When we transfer large objects such a matrices and vectors
+one should always use call by reference. Copying such objects
+to a called function slows down considerably the execution.  If you 
+need to keep the value of a call by reference object, you should use the
+\verb?const? declaration.
+ 
+In programming languages like Fortran one uses only call by reference, but you can flag
+whether a called function or subroutine is allowed or not to change the value by declaring
+for example an integer value as \verb?INTEGER, INTENT(IN) ::  i?.  The local function 
+cannot change the value of $i$.  Declaring  a transferred values as \verb?INTEGER, INTENT(OUT) ::  i?.
+allows the local function to change the variable $i$.
+
+
+\subsubsection{Initializations and main program}
+
+In every program we have to define the functions employed. The style chosen
+here is to declare these functions at the beginning, followed thereafter 
+by the main program and the detailed tasks performed by each function.
+Another possibility is to include these functions and their statements 
+before the main program, meaning that the main program appears at the very end.
+I find this programming style less readable however since I prefer to read a code from top to bottom.
+A further option, specially in connection with larger projects,
+is to include these function definitions in a user defined header file.
+The following program shows also (although it is rather unnecessary in this case due to few tasks)
+how one can split different tasks into specialized functions. Such a division is very useful for 
+larger projects and programs. 
+
+
+In the first version of this program we use a more C-like style for writing and reading to file.
+At the end of this section we include also the corresponding C++ and Fortran files.
+\begin{lstlisting}[title={\url{http://folk.uio.no/mhjensen/compphys/programs/chapter03/cpp/program1.cpp}}]
+/*
+**     Program to compute the second derivative of exp(x). 
+**     Three calling functions are included
+**     in this version. In one function we read in the data from screen,
+**     the next function computes the second derivative
+**     while the last function prints out data to screen.
+*/
+using namespace std;
+# include  <iostream> 
+
+void initialize (double *, double *, int *);
+void second_derivative( int, double, double, double *, double *);
+void output( double *, double *, double, int);
+
+int main()
+{
+        // declarations of variables 
+        int number_of_steps;
+        double x, initial_step;
+	double *h_step, *computed_derivative;
+        //  read in input data from screen 
+        initialize (&initial_step, &x, &number_of_steps);
+	//  allocate space in memory for the one-dimensional arrays  
+	//  h_step and computed_derivative                           
+        h_step =  new double[number_of_steps];
+        computed_derivative = new double[number_of_steps];
+	//  compute the second derivative of exp(x) 
+        second_derivative( number_of_steps, x, initial_step, h_step, 
+                           computed_derivative);        
+        //  Then we print the results to file  
+	output(h_step, computed_derivative, x, number_of_steps );
+        // free memory
+        delete [] h_step;
+        delete [] computed_derivative; 
+        return 0;
+}   // end main program 
+\end{lstlisting}
+ We have defined three additional functions, one which 
+reads in from screen the value of $x$, the initial step length $h$
+and the number of divisions by 2 of $h$. This function is called
+\verb?initialize?. To calculate the second derivatives we define the function 
+\verb?second_derivative?. 
+Finally, we have a  function which writes our results
+together with a comparison with the exact value to a given file.
+The results are stored in two arrays, one which contains the 
+given step length $h$ and another one which contains 
+the computed derivative.
+
+These arrays are defined as pointers through the statement 
+\begin{lstlisting}
+double *h_step, *computed_derivative;
+\end{lstlisting}
+A call in the main function to the function 
+\verb?second_derivative? 
+looks then like this
+\begin{lstlisting}
+second_derivative( number_of_steps, x, intial_step, h_step, computed_derivative);
+\end{lstlisting}
+while the called function is declared in the following way
+\begin{lstlisting}
+void second_derivative(int number_of_steps, double x, double *h_step,double *computed_derivative);
+\end{lstlisting}
+indicating that
+\verb?double  *h_step, double  *computed_derivative;?
+are pointers and that we transfer the address of the first elements.
+The other variables
+\verb?int  number_of_steps, double  x;?
+are transferred by value and are not changed in the called function.
+
+
+Another aspect to observe is the possibility of dynamical allocation of 
+memory through the \verb?new? function. In the included program we reserve
+space in memory for these three arrays in the following way
+\begin{lstlisting}
+  h_step = new double[number_of_steps];
+  computed_derivative = new double[number_of_steps];
+\end{lstlisting}
+When we no longer need the space occupied by these arrays, we free
+memory through the declarations
+\begin{lstlisting}
+  delete []  h_step;
+  delete []  computed_derivative;
+\end{lstlisting}
+\subsubsection{The function initialize}
+
+\begin{lstlisting}
+//     Read in from screen the initial step, the number of steps 
+//     and the value of x 
+
+void initialize (double *initial_step,  double *x, int *number_of_steps)
+{
+   printf("Read in from screen initial step, x and number of steps\n");
+   scanf("%lf %lf %d",initial_step, x, number_of_steps);
+   return;
+}  // end of function initialize 
+\end{lstlisting}
+
+This function receives the addresses of the three variables 
+\begin{lstlisting}
+void initialize (double *initial_step,  double *x, int *number_of_steps)
+\end{lstlisting}
+and returns updated values by reading from screen.
+
+\subsubsection{The function second\_derivative}
+
+\begin{lstlisting}
+//  This function computes the second derivative 
+
+void second_derivative( int number_of_steps, double x, 
+                        double initial_step, double *h_step, 
+                        double *computed_derivative)
+{
+       int counter;
+       double h;
+       //     calculate the step size  
+       //     initialize the derivative, y and x (in minutes) 
+       //     and iteration counter 
+       h = initial_step;
+       //  start computing for different step sizes 
+       for (counter=0; counter < number_of_steps; counter++ )  
+       {
+	  //  setup arrays with derivatives and step sizes
+	  h_step[counter] = h;
+          computed_derivative[counter] = 
+                         (exp(x+h)-2.*exp(x)+exp(x-h))/(h*h);
+          h = h*0.5;
+	} // end of do loop 
+        return;
+}   // end of function second derivative 
+\end{lstlisting}
+The loop over the number of steps serves to compute the 
+second derivative 
+for different values of $h$. In this function the step is halved
+for every iteration (you could obviously change this to larger or smaller step variations). 
+The step values and the derivatives are stored
+in the arrays 
+\verb?h_step? and  \verb?double computed_derivative?.
+\subsubsection{The output function}
+This function computes the relative error and writes the results to a chosen
+file.
+
+The last function here illustrates how to open a file, write and read possible
+data and then close it. In this case we have fixed the name of the file.
+Another possibility is obviously to read the name of this file together
+with other input parameters. The way the program is presented here is 
+slightly unpractical since we need to recompile the program if we wish
+to change the name of the output file.
+
+An alternative is represented by the following C++ program.
+This program reads from screen the names of the input and output
+files.
+\begin{lstlisting}[title={\url{http://folk.uio.no/mhjensen/compphys/programs/chapter03/cpp/program2.cpp}}]
+1 #include <stdio.h>
+2 #include <stdlib.h>
+3 int col:
+4
+5 int main(int argc, char *argv[])
+6 {
+7     FILE *inn, *out;
+8     int c;
+9     if( argc < 3)  {
+10    printf("You have to read in :\n");
+11    printf("in_file and out_file \n");
+12    exit(1);
+13    inn = fopen( argv[1], "r");}    // returns pointer to the in_file 
+14    if( inn == NULL )  {         // can't find in_file     
+15       printf("Can't find the input file %s\n", argv[1]);
+16       exit(1);
+17    }
+18    out = fopen( argv[2], "w");     // returns a pointer to the out_file  
+19    if( out == NULL )  {         // can't find out_file     
+20       printf("Can't find the output file %s\n", argv[2]);
+21       exit(1);
+22    }
+    ... program statements
+
+23    fclose(inn);
+24    fclose(out);
+25    return 0;
+} 
+\end{lstlisting}
+This program has several interesting features.
+%
+{\small
+\begin{center}
+\begin{tabular}{|ll|}\hline
+\hfill Line \hfill
+& \hspace*{\fill} Program comments \hspace*{\fill} \\ \hline
+&  \\[-2mm]
+5 &$\bullet$
+\begin{minipage}[t]{0.65\textwidth}
+The function \verb? main()? takes three arguments, given by \verb?argc?.
+The variable \verb?argv? points to the following: the name of the program, the first and second
+arguments, in this case the file names to be read from screen.\vspace*{2mm} 
+\end{minipage}\\
+7 &$\bullet$
+\begin{minipage}[t]{0.65\textwidth}
+C++ has a data type called \verb?FILE?. The pointers \verb?inn? 
+and \verb ?out? point to specific files. They must be of the type
+\verb?FILE?.
+\vspace*{2mm}
+\end{minipage}\\
+10 &$\bullet$
+\begin{minipage}[t]{0.65\textwidth}
+The command line has to contain 2 filenames as parameters.
+\end{minipage}\\
+13--17 &$\bullet$
+\begin{minipage}[t]{0.65\textwidth}
+The input file has to exit, else the pointer returns \verb?NULL?.
+It has only read permission.
+\end{minipage}\\
+18--22 &$\bullet$
+\begin{minipage}[t]{0.65\textwidth}
+This applies for the output file as well, but now with write permission only.
+\end{minipage}\\ 
+23--24 &$\bullet$
+\begin{minipage}[t]{0.65\textwidth}
+Both files are closed before the main program ends.
+\end{minipage}\\[2ex]
+\hline
+\end{tabular}
+\end{center}
+} % end small
+%
+
+
+The main part of the code includes now an object declaration \verb?ofstream ofile?
+which is included in C++ and allows the programmer to open  and declare files.
+This is done via the statement \verb?ofile.open(outfilename);?. We close the file
+at the end of the main program by writing \verb?ofile.close();?.
+There is a corresponding object for reading inputfiles. In this case we declare prior
+to the main function, or in an evantual header file, \verb?ifstream ifile?
+and use the corresponding statements \verb?ifile.open(infilename);?
+and \verb?ifile.close();? for opening and closing an input file.
+Note that we have declared two character variables \verb?char* outfilename;?
+and \verb?char* infilename;?. In order to use these options we need to include a 
+corresponding library of functions using \verb?# include <fstream>?.
+
+One of the problems with C++ is that formatted output is not as easy to use as 
+the printf and scanf functions in C. The output function using the C++ style is included
+below.
+\begin{lstlisting}
+//    function to write out the final results  
+void output(double *h_step, double *computed_derivative, double x, 
+            int number_of_steps )
+{
+     int i;
+     ofile << "RESULTS:" << endl;
+     ofile << setiosflags(ios::showpoint | ios::uppercase);
+     for( i=0; i < number_of_steps; i++)
+       {
+       ofile << setw(15) << setprecision(8) << log10(h_step[i]);
+       ofile << setw(15) << setprecision(8) << 
+       log10(fabs(computed_derivative[i]-exp(x))/exp(x))) << endl;
+        }
+}  // end of function output
+\end{lstlisting}
+The function \verb?setw(15)? reserves an output of 15 spaces for a given variable
+while \verb?setprecision(8)? yields eight leading digits. To use these options
+you have to use the declaration \verb?# include <iomanip>?.
+
+Before we discuss the results of our calculations we list here the corresponding
+Fortran program.
+The corresponding Fortran  example is
+\lstset{language=[90]Fortran}
+\begin{lstlisting}[title={\url{http://folk.uio.no/mhjensen/compphys/programs/chapter03/Fortran/program1.f90}}]
+!     Program to compute the second derivative of exp(x). 
+!     Only one calling function is included.
+!     It computes the second derivative and is included in the 
+!     MODULE functions as a separate method
+!     The variable h is the step size. We also fix the total number
+!     of divisions by 2 of h. The total number of steps is read from
+!     screen 
+MODULE constants
+  ! definition of variables for double precisions and complex variables
+  INTEGER,  PARAMETER :: dp = KIND(1.0D0)
+  INTEGER, PARAMETER :: dpc = KIND((1.0D0,1.0D0))
+END MODULE constants
+
+! Here you can include specific functions which can be used by
+! many subroutines or functions
+
+MODULE functions
+USE constants
+IMPLICIT NONE
+CONTAINS
+  SUBROUTINE derivative(number_of_steps, x, initial_step, h_step, &
+       computed_derivative)
+    USE constants
+    INTEGER, INTENT(IN) :: number_of_steps
+    INTEGER  :: loop
+    REAL(DP), DIMENSION(number_of_steps), INTENT(INOUT) :: &
+         computed_derivative, h_step
+    REAL(DP), INTENT(IN) :: initial_step, x 
+    REAL(DP) :: h
+    !     calculate the step size  
+    !     initialize the derivative, y and x (in minutes) 
+    !     and iteration counter 
+    h = initial_step
+    ! start computing for different step sizes 
+    DO loop=1,  number_of_steps
+       !  setup arrays with derivatives and step sizes
+       h_step(loop) = h
+       computed_derivative(loop) = (EXP(x+h)-2.*EXP(x)+EXP(x-h))/(h*h)
+       h = h*0.5
+    ENDDO
+  END SUBROUTINE derivative
+
+END MODULE functions
+
+PROGRAM second_derivative
+  USE constants
+  USE functions
+  IMPLICIT NONE
+  ! declarations of variables 
+  INTEGER :: number_of_steps, loop
+  REAL(DP) :: x, initial_step
+  REAL(DP), ALLOCATABLE, DIMENSION(:) :: h_step, computed_derivative
+  !  read in input data from screen 
+  WRITE(*,*) 'Read in initial step, x value and number of steps'
+  READ(*,*) initial_step, x, number_of_steps
+  ! open file to write results on
+  OPEN(UNIT=7,FILE='out.dat')
+  !  allocate space in memory for the one-dimensional arrays  
+  !  h_step and computed_derivative                           
+  ALLOCATE(h_step(number_of_steps),computed_derivative(number_of_steps))
+  ! compute the second derivative of exp(x)
+  ! initialize the arrays
+  h_step = 0.0_dp; computed_derivative = 0.0_dp 
+  CALL  derivative(number_of_steps,x,initial_step,h_step,computed_derivative)
+
+  !  Then we print the results to file  
+  DO loop=1,  number_of_steps
+     WRITE(7,'(E16.10,2X,E16.10)') LOG10(h_step(loop)),&
+     LOG10 ( ABS ( (computed_derivative(loop)-EXP(x))/EXP(x)))
+  ENDDO
+  ! free memory
+  DEALLOCATE( h_step, computed_derivative)
+  ! close the output file
+  CLOSE(7)
+ 
+END PROGRAM second_derivative
+\end{lstlisting}
+The \verb?MODULE? declaration in Fortran allows one to place functions
+like the one which calculates second derivatives in a module. Since this is a general method,
+one could extend its functionality by simply transfering 
+the name of the function to differentiate. In our case we use explicitely the exponential
+function, but there is nothing which hinders us from defining other functions. 
+Note the usage of the module {\bf constants} where we define double and complex variables.
+If one wishes to switch to another precision, one needs to change the declaration
+in one part of the program only. This hinders possible errors which arise if one has to change
+variable declarations in every function and subroutine.   
+Finally, dynamic memory allocation and deallocation is in Fortran 
+done with the keywords \verb?ALLOCATE( array(size))? and \verb?DEALLOCATE(array)?.
+Although most compilers deallocate and thereby free space in memory when leaving a
+function, you should always deallocate an array when it is no longer needed. In case your arrays
+are very large, this may block unnecessarily large fractions of the memory. 
+Furthermore, you should always initialize arrays. In the example above, we note that Fortran allows
+us to simply write \verb?h_step = 0.0_dp; computed_derivative = 0.0_dp?, which means that all
+elements of these two arrays are set to zero.  Coding arrays in this manner brings us much
+closer to the way we deal with mathematics. 
+In Fortran  it is irrelevant whether this is a one-dimensional or multi-dimensional array.
+In chapter \ref{chap:linalgebra}, where we deal with
+allocation of matrices, we will introduce the  numerical libraries Armadillo and 
+Blitz++ which allow for similar
+treatments of arrays in C++. By default however, these features are not included in 
+the ANSI C++ standard. 
+
+
+
+
+
+
+
 \section{Exercises}
 
-%\subsection*{prob 2.1: Converting from decimal to binary representation}
+%\subsection*{Exercise 2.1: Converting from decimal to binary representation}
 \begin{prob}
 Set up an algorithm
 which converts a floating number given in the decimal representation 
@@ -2206,7 +2773,7 @@ Write thereafter a program which implements this algorithm.
 \end{prob}
 
 
-%\subsection*{prob 2.2: Summing series}
+%\subsection*{Exercise 2.1: Summing series}
 \begin{prob}
 Make a program which sums
 \begin{enumerate}
@@ -2565,14 +3132,6 @@ Write a program which computes the above Laguerre and Hermite polynomials
 for different values of $n$ using the pertinent recursion relations. 
 Check your results agains some selected closed-form expressions.
 \end{prob}
-
-
-
-
-
-
-
-
 
 
 
