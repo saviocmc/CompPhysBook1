@@ -1,0 +1,56 @@
+\begin{thebibliography}{10}
+
+\bibitem{barton}
+J.J. Barton and L.R. Nackman.
+\newblock {\em Scientific and Engineering C++}.
+\newblock Addison Wesley, 1994.
+
+\bibitem{top102}
+B.~Cipra.
+\newblock {\em SIAM News}, 33:1, 2000.
+
+\bibitem{top101}
+J.~Dongarra and F.~Sullivan.
+\newblock {\em Computing in Science and Engineering}, 2:22, 2000.
+
+\bibitem{flowers}
+B.H. Flowers.
+\newblock {\em An Introduction to Numerical Methods in C++}.
+\newblock Oxford University Press, 2000.
+
+\bibitem{guardiola}
+R.~Guardiola, E.~Higon, and J.~Ros.
+\newblock {\em Metodes Num\`erics per a la F\'isica}.
+\newblock Universitat de Valencia, 1997.
+
+\bibitem{km90}
+S.E. Koonin and D.~Meredith.
+\newblock {\em Computational Physics}.
+\newblock Addison Wesley, 1990.
+
+\bibitem{landau}
+R.H. Landau and M.J. Paez.
+\newblock {\em Computational Physics}.
+\newblock Wiley, 1997.
+
+\bibitem{fritz}
+E.W. Schmid, G.~Spitz, and W.~L\"osch.
+\newblock {\em Theoretische Physik mit dem Personal Computer}.
+\newblock Springer Verlag, 1987.
+
+\bibitem{f95ref}
+B.T. Smith, J.C. Adams, W.S. Brainerd, and J.L. Wagener.
+\newblock {\em Fortran 95 Handbook}.
+\newblock MIT press, 1997.
+
+\bibitem{mpiref}
+M.~Snir, S.~Otto, S.~Huss-Ledermann, D.~Walker, and J.~Dongarra.
+\newblock {\em MPI, the Complete Reference, Vols I and II}.
+\newblock The MIT Press, 1998.
+
+\bibitem{thij}
+J.M. Thijssen.
+\newblock {\em Computational Physics}.
+\newblock Springer Verlag, 1999.
+
+\end{thebibliography}
