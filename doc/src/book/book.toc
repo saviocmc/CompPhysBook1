@@ -12,29 +12,29 @@
 \contentsline {section}{\numberline {1.2}Designing programs}{7}{section.1.2}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
-\contentsline {chapter}{\numberline {2}Introduction to C++ and Fortran}{11}{chapter.2}
-\contentsline {section}{\numberline {2.1}Getting Started}{11}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Scientific hello world}{14}{subsection.2.1.1}
-\contentsline {section}{\numberline {2.2}Representation of Integer Numbers}{19}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Fortran codes}{22}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}Real Numbers and Numerical Precision}{23}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Representation of real numbers}{25}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Machine numbers}{27}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Programming Examples on Loss of Precision and Round-off Errors}{30}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Algorithms for $e^{-x}$}{30}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Fortran codes}{34}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Further examples}{38}{subsection.2.4.3}
-\contentsline {subsubsection}{Summing $1/n$}{38}{section*.4}
-\contentsline {subsubsection}{The standard algorithm for the standard deviation}{38}{section*.5}
-\contentsline {section}{\numberline {2.5}Additional Features of C++ and Fortran }{41}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Operators in C++}{41}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Pointers and arrays in C++.}{43}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Macros in C++}{45}{subsection.2.5.3}
-\contentsline {subsection}{\numberline {2.5.4}Structures in C++ and TYPE in Fortran }{47}{subsection.2.5.4}
-\contentsline {section}{\numberline {2.6}Reading and writing to file}{49}{section.2.6}
-\contentsline {subsubsection}{Initializations and main program}{52}{section*.6}
-\contentsline {subsubsection}{The function initialize}{54}{section*.7}
-\contentsline {subsubsection}{The function second\_derivative}{55}{section*.8}
-\contentsline {subsubsection}{The output function}{55}{section*.9}
-\contentsline {section}{\numberline {2.7}Exercises}{59}{section.2.7}
+\contentsline {chapter}{\numberline {2}Introduction to C++ and Fortran}{12}{chapter.2}
+\contentsline {section}{\numberline {2.1}Getting Started}{12}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Scientific hello world}{15}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Representation of Integer Numbers}{20}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Fortran codes}{24}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Real Numbers and Numerical Precision}{25}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Representation of real numbers}{26}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Machine numbers}{28}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Programming Examples on Loss of Precision and Round-off Errors}{31}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Algorithms for $e^{-x}$}{31}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Fortran codes}{36}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Further examples}{39}{subsection.2.4.3}
+\contentsline {subsubsection}{Summing $1/n$}{39}{section*.5}
+\contentsline {subsubsection}{The standard algorithm for the standard deviation}{39}{section*.6}
+\contentsline {section}{\numberline {2.5}Additional Features of C++ and Fortran }{42}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Operators in C++}{42}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Pointers and arrays in C++.}{44}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Macros in C++}{46}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.5.4}Structures in C++ and TYPE in Fortran }{48}{subsection.2.5.4}
+\contentsline {section}{\numberline {2.6}Reading and writing to file}{50}{section.2.6}
+\contentsline {subsubsection}{Initializations and main program}{53}{section*.7}
+\contentsline {subsubsection}{The function initialize}{55}{section*.8}
+\contentsline {subsubsection}{The function second\_derivative}{56}{section*.9}
+\contentsline {subsubsection}{The output function}{56}{section*.10}
+\contentsline {section}{\numberline {2.7}Exercises}{60}{section.2.7}
 \gdef \the@ipfilectr {}

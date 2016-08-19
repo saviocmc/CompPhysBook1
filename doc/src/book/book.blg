@@ -1,26 +1,32 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: book.aux
 A level-1 auxiliary file: Preface.aux
 A level-1 auxiliary file: Symbols.aux
 A level-1 auxiliary file: part1.aux
-A level-1 auxiliary file: chapters/Chapter1/chapter1.aux
-A level-1 auxiliary file: chapters/Chapter2/chapter2.aux
+A level-1 auxiliary file: chapter1.aux
+White space in argument---line 17 of file chapter1.aux
+ : \citation{f95ref,metcalf1996,marshall199\
+ :                                           5}
+I'm skipping whatever remains of this command
 I couldn't open style file spphys.bst
----line 34 of file book.aux
+---line 20 of file chapter1.aux
  : \bibstyle{spphys
  :                 }
 I'm skipping whatever remains of this command
-I couldn't open database file mylib.bib
----line 35 of file book.aux
- : \bibdata{mylib
- :               }
+A level-1 auxiliary file: chapter2.aux
+Illegal, another \bibstyle command---line 58 of file chapter2.aux
+ : \bibstyle
+ :          {spphys}
 I'm skipping whatever remains of this command
-I found no database files---while reading file book.aux
+Illegal, another \bibdata command---line 59 of file chapter2.aux
+ : \bibdata
+ :         {book.bib}
+I'm skipping whatever remains of this command
 I found no style file---while reading file book.aux
-You've used 23 entries,
+You've used 24 entries,
             0 wiz_defined-function locations,
-            113 strings with 768 characters,
+            114 strings with 746 characters,
 and the built_in function-call counts, 0 in all, are:
 = -- 0
 > -- 0
@@ -59,4 +65,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 0
-(There were 4 error messages)
+(There were 5 error messages)

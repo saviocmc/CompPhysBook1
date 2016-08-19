@@ -1,9 +1,7 @@
-\documentclass[a4paper,openany, 12pt]{book}
-
-
+\documentclass[a4paper,openany, 12pt,envcountchap,sectrefs]{book}
 
 \usepackage[text={15.5cm,23cm},centering]{geometry}
-
+\usepackage{graybox}
 \usepackage{mathptmx}
 \usepackage{graphicx}
 \usepackage{chapterbib} %remember to bibtex each chapter before final compilation
@@ -18,9 +16,9 @@
 \usepackage[usenames,dvipsnames,x11names]{xcolor}
 \usepackage{tikz}
 \usetikzlibrary{arrows,snakes,shapes}
-
+\usepackage{algorithmicx}
+\usepackage{algpseudocode} 
  \usepackage{listings}
- \usepackage{graphicx}
  \usepackage{epic}
  \usepackage{eepic}
  \usepackage{a4wide}
@@ -36,11 +34,10 @@
 % \usepackage{refcheck}
 \setcounter{tocdepth}{2}
 %\usepackage{gnuplot-lua-tikz}
-
-
+\usepackage{chapterbib}
 \usepackage{textcomp,type1ec,pdfpages}
 \usepackage{bera}
-
+\usepackage{natbib}
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
 \definecolor{mauve}{rgb}{0.58,0,0.82}
@@ -157,6 +154,14 @@ breakatwhitespace=true,
 tabsize=2
 }}{}
 
+\renewenvironment{svgraybox}%
+       {\fboxsep=12pt\relax
+        \begin{shaded}%
+        \list{}{\leftmargin=12pt\rightmargin=2\leftmargin\leftmargin=\z@\topsep=\z@\relax}%
+        \expandafter\item\parindent=\svparindent
+        \hskip-\listparindent}%
+       {\endlist\end{shaded}}%
+%
 
 \newcommand{\chapterauthor}[1]{\textsc{#1}\section*{}}  % Only needed for edited/contributed books
 
@@ -183,12 +188,10 @@ tabsize=2
 \mainmatter
 
 \include{part1}
-\include{chapters/Chapter1/chapter1}
-\include{chapters/Chapter2/chapter2}
+\include{chapter1}
+\include{chapter2}
 %\include{chapters/Chapter3/chapter3}
-\bibliographystyle{spphys}
-%\bibliographystyle{spmpsci}
- \bibliography{mylib}
+
 
 %\appendix
 %\include{A}
