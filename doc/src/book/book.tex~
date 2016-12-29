@@ -1,7 +1,6 @@
 \documentclass[a4paper,openany, 12pt,envcountchap,sectrefs]{book}
 
 \usepackage[text={15.5cm,23cm},centering]{geometry}
-\usepackage{graybox}
 \usepackage{mathptmx}
 \usepackage{graphicx}
 \usepackage{chapterbib} %remember to bibtex each chapter before final compilation
@@ -117,7 +116,7 @@ emph={[3]from, import, as},
 emphstyle=[3]\color{blue},
 upquote=true,
 morecomment=[s]{"""}{"""},
-commentstyle=\color{dkgreen}\slshape, % el color era gray pero lo cambie a verde
+commentstyle=\color{dkgreen}\slshape,
 emph={[4]1, 2, 3, 4, 5, 6, 7, 8, 9, 0},
 emphstyle=[4]\color{blue},
 framexleftmargin=1mm, framextopmargin=1mm, rulesepcolor=\color{blue},
@@ -146,24 +145,13 @@ emph={[3]from, import, as},
 emphstyle=[3]\color{blue},
 upquote=true,
 morecomment=[s]{"""}{"""},
-commentstyle=\color{dkgreen}\slshape, % el color era gray pero lo cambie a verde
+commentstyle=\color{dkgreen}\slshape,
 emph={[4]1, 2, 3, 4, 5, 6, 7, 8, 9, 0},
 emphstyle=[4]\color{blue},
 framexleftmargin=1mm, framextopmargin=1mm, rulesepcolor=\color{blue},
 breakatwhitespace=true,
 tabsize=2
 }}{}
-
-\renewenvironment{svgraybox}%
-       {\fboxsep=12pt\relax
-        \begin{shaded}%
-        \list{}{\leftmargin=12pt\rightmargin=2\leftmargin\leftmargin=\z@\topsep=\z@\relax}%
-        \expandafter\item\parindent=\svparindent
-        \hskip-\listparindent}%
-       {\endlist\end{shaded}}%
-%
-
-\newcommand{\chapterauthor}[1]{\textsc{#1}\section*{}}  % Only needed for edited/contributed books
 
 %defines some roman math characters
 \newcommand{\rmd}{\ensuremath{\mathrm{d}}}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.5.24)  19 AUG 2016 16:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.5.24)  29 DEC 2016 10:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -55,13 +55,6 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 )
-
-! LaTeX Error: File `graybox.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/mathptmx.sty
 Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
@@ -1252,45 +1245,38 @@ File: lstlang1.sty 2014/09/06 1.5e listings language file
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 
-! LaTeX Error: Environment svgraybox undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 \renewenvironment{svgraybox}
-                                  %
-? s
-OK, entering \scrollmode...
-
 LaTeX Warning: Unused global option(s):
     [envcountchap,sectrefs].
 
 (./book.aux (./Preface.aux) (./Symbols.aux) (./part1.aux) (./chapter1.aux)
-(./chapter2.aux))
+(./chapter2.aux) (./chapter4.aux) (./chapter5.aux) (./chapter6.aux)
+(./chapter7.aux) (./chapter8.aux) (./chapter9.aux) (./chapter10.aux)
+(./chapter11.aux) (./chapter12.aux) (./chapter13.aux) (./chapter14.aux))
 \openout1 = `book.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 178.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 178.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 166.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 166.
 
- (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    ... okay on input line 166.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
@@ -1328,7 +1314,7 @@ LaTeX Font Info:    ... okay on input line 178.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box103
-Package hyperref Info: Link coloring ON on input line 178.
+Package hyperref Info: Link coloring ON on input line 166.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1337,9 +1323,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count219
 )
-LaTeX Info: Redefining \ref on input line 178.
-LaTeX Info: Redefining \pageref on input line 178.
-LaTeX Info: Redefining \nameref on input line 178.
+LaTeX Info: Redefining \ref on input line 166.
+LaTeX Info: Redefining \pageref on input line 166.
+LaTeX Info: Redefining \nameref on input line 166.
 
 (./book.out) (./book.out)
 \@outlinefile=\write4
@@ -1348,54 +1334,54 @@ LaTeX Info: Redefining \nameref on input line 178.
  ABD: EveryShipout initializing macros
 \c@lstlisting=\count220
 LaTeX Font Info:    Font shape `T1/fve/m/n' will be
-(Font)              scaled to size 18.66588pt on input line 181.
+(Font)              scaled to size 18.66588pt on input line 169.
 LaTeX Font Info:    Font shape `T1/fve/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 181.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 18
-1.
+(Font)              scaled to size 12.9599pt on input line 169.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 16
+9.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 18
-1.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 16
+9.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 18
-1.
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 16
+9.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 18
-1.
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 16
+9.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 181.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 169.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 181.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 169.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 181.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 169.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 181.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 169.
  [1
 
 
 
 ]
 LaTeX Font Info:    Font shape `T1/fve/m/n' will be
-(Font)              scaled to size 22.39185pt on input line 181.
+(Font)              scaled to size 22.39185pt on input line 169.
 LaTeX Font Info:    Font shape `T1/fve/b/n' will be
-(Font)              scaled to size 22.39185pt on input line 181.
+(Font)              scaled to size 22.39185pt on input line 169.
  (./book.toc
 LaTeX Font Info:    Font shape `T1/fve/b/n' will be
 (Font)              scaled to size 12.9599pt on input line 6.
@@ -1411,9 +1397,16 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \tf@toc=\write5
 \openout5 = `book.toc'.
 
+
+Underfull \vbox (badness 5726) has occurred while \output is active []
+
  [2
 
 ]
+LaTeX Font Info:    Font shape `T1/fve/m/sl' will be
+(Font)              scaled to size 10.79993pt on input line 171.
+
+[3]
 \openout2 = `Preface.aux'.
 
  (./Preface.tex
@@ -1433,7 +1426,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `T1/fve/m/n' will be
 (Font)              scaled to size 6.65994pt on input line 45.
- [3
+ [4
 
 
 ]
@@ -1441,10 +1434,10 @@ LaTeX Font Info:    Font shape `T1/fve/m/it' in size <10> not available
 (Font)              Font shape `T1/fve/m/sl' tried instead on input line 82.
 LaTeX Font Info:    Font shape `T1/fve/m/sl' will be
 (Font)              scaled to size 8.99994pt on input line 82.
- [4]
+ [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
+ [6]
 LaTeX Font Info:    Try loading font information for TS1+fve on input line 201.
 
 
@@ -1453,22 +1446,21 @@ File: ts1fve.fd 2004/09/07 scalable font definitions for TS1/fve.
 )
 LaTeX Font Info:    Font shape `TS1/fve/m/n' will be
 (Font)              scaled to size 10.79993pt on input line 201.
- [6]) [7] [8]
+ [7]) [8] [9]
 \openout2 = `Symbols.aux'.
 
 
-(./Symbols.tex) [9
+(./Symbols.tex) [10
 
 
-
-
-] [10
 
 
 ]
 \openout2 = `part1.aux'.
 
  (./part1.tex [1
+
+
 
 
 
@@ -1622,12 +1614,9 @@ Chapter 2.
 ! Undefined control sequence.
 l.3 \abstract
              {This chapters aims at catching two birds with a stone;  to int...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
+? s
+OK, entering \scrollmode...
 [12
 
 
@@ -1663,7 +1652,7 @@ le \T1/fve/m/n/12 for dou-ble pre-ci-sion. The function[] \T1/fvm/m/n/12 atof
 
 [16]
 
-! LaTeX Error: Environment shaded undefined.
+! LaTeX Error: Environment svgraybox undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1675,105 +1664,9 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Undefined control sequence.
-<argument> ...argin =2\leftmargin \leftmargin =\z 
-                                                  @\topsep =\z @\relax 
-l.300 \begin{svgraybox}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   @
-l.300 \begin{svgraybox}
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   @
-l.300 \begin{svgraybox}
-                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-<argument> ...margin \leftmargin =\z @\topsep =\z 
-                                                  @\relax 
-l.300 \begin{svgraybox}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   @
-l.300 \begin{svgraybox}
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   @
-l.300 \begin{svgraybox}
-                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
 [17]
-! Undefined control sequence.
-\svgraybox ...fter \item \parindent =\svparindent 
-                                                  \hskip -\listparindent 
-l.300 \begin{svgraybox}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Missing number, treated as zero.
-<to be read again> 
-                   \hskip 
-l.300 \begin{svgraybox}
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \hskip 
-l.300 \begin{svgraybox}
-                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-! LaTeX Error: \begin{svgraybox} on input line 300 ended by \end{shaded}.
+! LaTeX Error: \begin{document} ended by \end{svgraybox}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1794,7 +1687,7 @@ LaTeX Font Info:    Font shape `TS1/fvm/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 322.
 
 
-! LaTeX Error: Environment shaded undefined.
+! LaTeX Error: Environment svgraybox undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1806,105 +1699,9 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Undefined control sequence.
-<argument> ...argin =2\leftmargin \leftmargin =\z 
-                                                  @\topsep =\z @\relax 
-l.353 \begin{svgraybox}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   @
-l.353 \begin{svgraybox}
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   @
-l.353 \begin{svgraybox}
-                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-<argument> ...margin \leftmargin =\z @\topsep =\z 
-                                                  @\relax 
-l.353 \begin{svgraybox}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   @
-l.353 \begin{svgraybox}
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   @
-l.353 \begin{svgraybox}
-                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
 [18]
-! Undefined control sequence.
-\svgraybox ...fter \item \parindent =\svparindent 
-                                                  \hskip -\listparindent 
-l.353 \begin{svgraybox}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Missing number, treated as zero.
-<to be read again> 
-                   \hskip 
-l.353 \begin{svgraybox}
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \hskip 
-l.353 \begin{svgraybox}
-                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-! LaTeX Error: \begin{svgraybox} on input line 353 ended by \end{shaded}.
+! LaTeX Error: \begin{document} ended by \end{svgraybox}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1917,7 +1714,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: Environment shaded undefined.
+! LaTeX Error: Environment svgraybox undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1929,104 +1726,8 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Undefined control sequence.
-<argument> ...argin =2\leftmargin \leftmargin =\z 
-                                                  @\topsep =\z @\relax 
-l.365 \begin{svgraybox}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Missing number, treated as zero.
-<to be read again> 
-                   @
-l.365 \begin{svgraybox}
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   @
-l.365 \begin{svgraybox}
-                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-<argument> ...margin \leftmargin =\z @\topsep =\z 
-                                                  @\relax 
-l.365 \begin{svgraybox}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   @
-l.365 \begin{svgraybox}
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   @
-l.365 \begin{svgraybox}
-                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\svgraybox ...fter \item \parindent =\svparindent 
-                                                  \hskip -\listparindent 
-l.365 \begin{svgraybox}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \hskip 
-l.365 \begin{svgraybox}
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \hskip 
-l.365 \begin{svgraybox}
-                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-! LaTeX Error: \begin{svgraybox} on input line 365 ended by \end{shaded}.
+! LaTeX Error: \begin{document} ended by \end{svgraybox}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -2039,7 +1740,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: Environment shaded undefined.
+! LaTeX Error: Environment svgraybox undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -2051,105 +1752,8 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Undefined control sequence.
-<argument> ...argin =2\leftmargin \leftmargin =\z 
-                                                  @\topsep =\z @\relax 
-l.389 \begin{svgraybox}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Missing number, treated as zero.
-<to be read again> 
-                   @
-l.389 \begin{svgraybox}
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   @
-l.389 \begin{svgraybox}
-                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-<argument> ...margin \leftmargin =\z @\topsep =\z 
-                                                  @\relax 
-l.389 \begin{svgraybox}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   @
-l.389 \begin{svgraybox}
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   @
-l.389 \begin{svgraybox}
-                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\svgraybox ...fter \item \parindent =\svparindent 
-                                                  \hskip -\listparindent 
-l.389 \begin{svgraybox}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \hskip 
-l.389 \begin{svgraybox}
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \hskip 
-l.389 \begin{svgraybox}
-                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-[19]
-
-! LaTeX Error: \begin{svgraybox} on input line 389 ended by \end{shaded}.
+! LaTeX Error: \begin{document} ended by \end{svgraybox}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -2161,6 +1765,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[19]
 
 Package natbib Warning: Citation `langtangen2009' on page 20 undefined on input
  line 422.
@@ -2184,7 +1789,7 @@ tmcm/m/n/12 ^^B \OT1/ztmcm/m/n/12 2[]\OML/ztmcm/m/it/12 :
 
 [21] [22]
 
-! LaTeX Error: Environment shaded undefined.
+! LaTeX Error: Environment svgraybox undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -2196,104 +1801,8 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Undefined control sequence.
-<argument> ...argin =2\leftmargin \leftmargin =\z 
-                                                  @\topsep =\z @\relax 
-l.618 \begin{svgraybox}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Missing number, treated as zero.
-<to be read again> 
-                   @
-l.618 \begin{svgraybox}
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   @
-l.618 \begin{svgraybox}
-                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-<argument> ...margin \leftmargin =\z @\topsep =\z 
-                                                  @\relax 
-l.618 \begin{svgraybox}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   @
-l.618 \begin{svgraybox}
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   @
-l.618 \begin{svgraybox}
-                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\svgraybox ...fter \item \parindent =\svparindent 
-                                                  \hskip -\listparindent 
-l.618 \begin{svgraybox}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \hskip 
-l.618 \begin{svgraybox}
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \hskip 
-l.618 \begin{svgraybox}
-                       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-! LaTeX Error: \begin{svgraybox} on input line 618 ended by \end{shaded}.
+! LaTeX Error: \begin{document} ended by \end{svgraybox}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -2316,12 +1825,12 @@ m/n/12 2[] + 0 \OMS/ztmcm/m/n/12 ^^B \OT1/ztmcm/m/n/12 2[] + 1 \OMS/ztmcm/m/n/1
 2 ^^B \OT1/ztmcm/m/n/12 2[]\OML/ztmcm/m/it/12 ;
  []
 
-[26] [27] [28] [29]
+[26] [27] [28]
 
-LaTeX Warning: Reference `chap:differentiate' on page 30 undefined on input lin
+LaTeX Warning: Reference `chap:differentiate' on page 29 undefined on input lin
 e 989.
 
-[30]
+[29] [30]
 Overfull \hbox (1.32466pt too wide) in paragraph at lines 1070--1070
 []\T1/fve/b/n/17.28 Programming Ex-am-ples on Loss of Pre-ci-sion and
  []
@@ -2359,9 +1868,6 @@ RRORS \T1/fve/m/n/12 33
  []
 
 [33] [34]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \hbox (35.57895pt too wide) has occurred while \output is active
 \T1/fve/m/sl/12 2.4.  PROGRAMMING EXAMPLES ON LOSS OF PRECISION AND ROUND-OFF E
 RRORS \T1/fve/m/n/12 35
@@ -2373,6 +1879,9 @@ LaTeX Warning: Reference `chap:differentiate' on page 36 undefined on input lin
 e 1352.
 
 [36]
+Underfull \vbox (badness 5985) has occurred while \output is active []
+
+
 Overfull \hbox (35.57895pt too wide) has occurred while \output is active
 \T1/fve/m/sl/12 2.4.  PROGRAMMING EXAMPLES ON LOSS OF PRECISION AND ROUND-OFF E
 RRORS \T1/fve/m/n/12 37
@@ -2403,7 +1912,7 @@ LaTeX Font Info:    Font shape `T1/fve/m/n' will be
 (Font)              scaled to size 9.85492pt on input line 1851.
 
 
-! LaTeX Error: Environment shaded undefined.
+! LaTeX Error: Environment svgraybox undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -2415,104 +1924,8 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Undefined control sequence.
-<argument> ...argin =2\leftmargin \leftmargin =\z 
-                                                  @\topsep =\z @\relax 
-l.1888 \begin{svgraybox}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Missing number, treated as zero.
-<to be read again> 
-                   @
-l.1888 \begin{svgraybox}
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   @
-l.1888 \begin{svgraybox}
-                        
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-<argument> ...margin \leftmargin =\z @\topsep =\z 
-                                                  @\relax 
-l.1888 \begin{svgraybox}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   @
-l.1888 \begin{svgraybox}
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   @
-l.1888 \begin{svgraybox}
-                        
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\svgraybox ...fter \item \parindent =\svparindent 
-                                                  \hskip -\listparindent 
-l.1888 \begin{svgraybox}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \hskip 
-l.1888 \begin{svgraybox}
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \hskip 
-l.1888 \begin{svgraybox}
-                        
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-! LaTeX Error: \begin{svgraybox} on input line 1888 ended by \end{shaded}.
+! LaTeX Error: \begin{document} ended by \end{svgraybox}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -2526,7 +1939,7 @@ or  <return>  to continue without it.
 
 [45]
 
-! LaTeX Error: Environment shaded undefined.
+! LaTeX Error: Environment svgraybox undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -2538,104 +1951,8 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Undefined control sequence.
-<argument> ...argin =2\leftmargin \leftmargin =\z 
-                                                  @\topsep =\z @\relax 
-l.1977 \begin{svgraybox}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Missing number, treated as zero.
-<to be read again> 
-                   @
-l.1977 \begin{svgraybox}
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   @
-l.1977 \begin{svgraybox}
-                        
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-<argument> ...margin \leftmargin =\z @\topsep =\z 
-                                                  @\relax 
-l.1977 \begin{svgraybox}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   @
-l.1977 \begin{svgraybox}
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   @
-l.1977 \begin{svgraybox}
-                        
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-\svgraybox ...fter \item \parindent =\svparindent 
-                                                  \hskip -\listparindent 
-l.1977 \begin{svgraybox}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \hskip 
-l.1977 \begin{svgraybox}
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \hskip 
-l.1977 \begin{svgraybox}
-                        
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-! LaTeX Error: \begin{svgraybox} on input line 1977 ended by \end{shaded}.
+! LaTeX Error: \begin{document} ended by \end{svgraybox}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -3098,30 +2415,100 @@ or  <return>  to continue without it.
 (./chapter2.bbl [66])) [67
 
 ]
+\openout2 = `chapter4.aux'.
+
+
+No file chapter4.tex.
+\openout2 = `chapter5.aux'.
+
+No file chapter5.tex.
+[68
+
+
+
+
+
+
+
+
+]
+\openout2 = `chapter6.aux'.
+
+
+No file chapter6.tex.
+\openout2 = `chapter7.aux'.
+
+No file chapter7.tex.
+[69
+
+
+
+
+
+
+
+]
+\openout2 = `chapter8.aux'.
+
+
+No file chapter8.tex.
+\openout2 = `chapter9.aux'.
+
+No file chapter9.tex.
+\openout2 = `chapter10.aux'.
+
+No file chapter10.tex.
+[70
+
+
+
+
+
+
+
+
+
+
+]
+\openout2 = `chapter11.aux'.
+
+
+No file chapter11.tex.
+\openout2 = `chapter12.aux'.
+
+No file chapter12.tex.
+\openout2 = `chapter13.aux'.
+
+No file chapter13.tex.
+\openout2 = `chapter14.aux'.
+
+No file chapter14.tex.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 201.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 201.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
 (./book.aux (./Preface.aux) (./Symbols.aux) (./part1.aux) (./chapter1.aux)
-(./chapter2.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 201.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 201.
+(./chapter2.aux) (./chapter4.aux) (./chapter5.aux) (./chapter6.aux)
+(./chapter7.aux) (./chapter8.aux) (./chapter9.aux) (./chapter10.aux)
+(./chapter11.aux) (./chapter12.aux) (./chapter13.aux) (./chapter14.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 204.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
 Package rerunfilecheck Info: File `book.out' has not changed.
-(rerunfilecheck)             Checksum: AFBAFC97BCA31E1F8D32D6D41E66CE04;1710.
+(rerunfilecheck)             Checksum: 00A01A11F3AFCF3BF2A5B3D1BA9A6362;1893.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 201.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
  ) 
 Here is how much of TeX's memory you used:
- 26990 strings out of 493090
- 509544 string characters out of 6134868
- 712219 words of memory out of 5000000
- 29885 multiletter control sequences out of 15000+600000
+ 27062 strings out of 493090
+ 510360 string characters out of 6134868
+ 713217 words of memory out of 5000000
+ 29903 multiletter control sequences out of 15000+600000
  65767 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,11n,122p,578b,1807s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on book.dvi (77 pages, 776376 bytes).
+Output written on book.dvi (80 pages, 779140 bytes).
