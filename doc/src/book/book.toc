@@ -2,64 +2,265 @@
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-2}
 \gdef \the@ipfilectr {}
+\contentsline {part}{I\hspace {1em}Introduction to Programming}{1}{part.1}
 \gdef \the@ipfilectr {@-3}
-\contentsline {part}{I\hspace {1em}Introduction to programming and numerical methods}{1}{part.1}
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
+\contentsline {section}{\numberline {1.1}Choice of programming language}{4}{section.1.1}
+\contentsline {subsubsection}{Future plans}{6}{section*.3}
+\contentsline {section}{\numberline {1.2}Designing programs}{6}{section.1.2}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
-\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}Choice of programming language}{5}{section.1.1}
-\contentsline {subsubsection}{Future plans}{7}{section*.3}
-\contentsline {section}{\numberline {1.2}Designing programs}{7}{section.1.2}
+\contentsline {chapter}{\numberline {2}Introduction to C++ and Fortran}{11}{chapter.2}
+\contentsline {section}{\numberline {2.1}Getting Started}{11}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Scientific hello world}{14}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Representation of Integer Numbers}{19}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Fortran codes}{22}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Real Numbers and Numerical Precision}{23}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Representation of real numbers}{25}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Machine numbers}{27}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Programming Examples on Loss of Precision and Round-off Errors}{30}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Algorithms for $e^{-x}$}{30}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Fortran codes}{34}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Further examples}{38}{subsection.2.4.3}
+\contentsline {subsubsection}{Summing $1/n$}{38}{section*.5}
+\contentsline {subsubsection}{The standard algorithm for the standard deviation}{38}{section*.6}
+\contentsline {section}{\numberline {2.5}Additional Features of C++ and Fortran }{41}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Operators in C++}{41}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Pointers and arrays in C++.}{43}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Macros in C++}{45}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.5.4}Structures in C++ and TYPE in Fortran }{47}{subsection.2.5.4}
+\contentsline {section}{\numberline {2.6}Reading and writing to file}{49}{section.2.6}
+\contentsline {subsubsection}{Initializations and main program}{52}{section*.7}
+\contentsline {subsubsection}{The function initialize}{54}{section*.8}
+\contentsline {subsubsection}{The function second\_derivative}{55}{section*.9}
+\contentsline {subsubsection}{The output function}{55}{section*.10}
+\contentsline {section}{\numberline {2.7}Exercises}{59}{section.2.7}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
-\contentsline {chapter}{\numberline {2}Introduction to C++ and Fortran}{12}{chapter.2}
-\contentsline {section}{\numberline {2.1}Getting Started}{12}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Scientific hello world}{15}{subsection.2.1.1}
-\contentsline {section}{\numberline {2.2}Representation of Integer Numbers}{20}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Fortran codes}{23}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}Real Numbers and Numerical Precision}{24}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Representation of real numbers}{26}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Machine numbers}{28}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Programming Examples on Loss of Precision and Round-off Errors}{31}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Algorithms for $e^{-x}$}{31}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Fortran codes}{35}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Further examples}{39}{subsection.2.4.3}
-\contentsline {subsubsection}{Summing $1/n$}{39}{section*.5}
-\contentsline {subsubsection}{The standard algorithm for the standard deviation}{39}{section*.6}
-\contentsline {section}{\numberline {2.5}Additional Features of C++ and Fortran }{42}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Operators in C++}{42}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Pointers and arrays in C++.}{44}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Macros in C++}{46}{subsection.2.5.3}
-\contentsline {subsection}{\numberline {2.5.4}Structures in C++ and TYPE in Fortran }{48}{subsection.2.5.4}
-\contentsline {section}{\numberline {2.6}Reading and writing to file}{50}{section.2.6}
-\contentsline {subsubsection}{Initializations and main program}{53}{section*.7}
-\contentsline {subsubsection}{The function initialize}{55}{section*.8}
-\contentsline {subsubsection}{The function second\_derivative}{56}{section*.9}
-\contentsline {subsubsection}{The output function}{56}{section*.10}
-\contentsline {section}{\numberline {2.7}Exercises}{60}{section.2.7}
+\contentsline {chapter}{\numberline {3}Non-linear Equations}{67}{chapter.3}
+\contentsline {section}{\numberline {3.1}Particle in a Box Potential}{67}{section.3.1}
+\contentsline {section}{\numberline {3.2}Iterative Methods}{68}{section.3.2}
+\contentsline {section}{\numberline {3.3}Bisection}{69}{section.3.3}
+\contentsline {section}{\numberline {3.4}Newton-Raphson's Method}{71}{section.3.4}
+\contentsline {section}{\numberline {3.5}The Secant Method}{74}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Broyden's Method}{75}{subsection.3.5.1}
+\contentsline {section}{\numberline {3.6}Exercises}{77}{section.3.6}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
+\contentsline {chapter}{\numberline {4}Numerical Integration}{79}{chapter.4}
+\contentsline {section}{\numberline {4.1}Newton-Cotes Quadrature}{79}{section.4.1}
+\contentsline {section}{\numberline {4.2}Adaptive Integration}{85}{section.4.2}
+\contentsline {section}{\numberline {4.3}Gaussian Quadrature}{87}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Orthogonal polynomials, Legendre}{90}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Integration points and weights with orthogonal polynomials}{93}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Application to the case $N=2$}{95}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}General integration intervals for Gauss-Legendre}{96}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Other orthogonal polynomials}{97}{subsection.4.3.5}
+\contentsline {subsubsection}{Laguerre polynomials}{97}{section*.12}
+\contentsline {subsubsection}{Hermite polynomials}{98}{section*.13}
+\contentsline {subsection}{\numberline {4.3.6}Applications to selected integrals}{99}{subsection.4.3.6}
+\contentsline {section}{\numberline {4.4}Treatment of Singular Integrals}{101}{section.4.4}
+\contentsline {section}{\numberline {4.5}Parallel Computing}{104}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Brief survey of supercomputing concepts and terminologies}{104}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Parallelism}{106}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}MPI with simple examples}{108}{subsection.4.5.3}
+\contentsline {subsubsection}{Running codes with MPI}{112}{section*.14}
+\contentsline {subsection}{\numberline {4.5.4}Numerical integration with MPI}{116}{subsection.4.5.4}
+\contentsline {section}{\numberline {4.6}An Integration Class}{121}{section.4.6}
+\contentsline {section}{\numberline {4.7}Exercises}{126}{section.4.7}
 \gdef \the@ipfilectr {}
+\contentsline {part}{II\hspace {1em}Linear Algebra and Eigenvalues}{130}{part.2}
 \gdef \the@ipfilectr {@-7}
+\contentsline {chapter}{\numberline {5}Linear Algebra}{131}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{131}{section.5.1}
+\contentsline {section}{\numberline {5.2}Mathematical Intermezzo}{132}{section.5.2}
+\contentsline {section}{\numberline {5.3}Programming Details}{137}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Declaration of fixed-sized vectors and matrices}{137}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Runtime Declarations of Vectors and Matrices in C++}{139}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Matrix Operations and C++ and Fortran Features of Matrix handling}{144}{subsection.5.3.3}
+\contentsline {subsubsection}{Strassen's algorithm}{148}{section*.15}
+\contentsline {subsubsection}{Fortran Allocate Statement and Mathematical Operations on Arrays}{149}{section*.16}
+\contentsline {section}{\numberline {5.4}Linear Systems}{150}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Gaussian Elimination}{153}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}LU Decomposition of a Matrix}{157}{subsection.5.4.2}
+\contentsline {subsubsection}{Cholesky's Factorization}{161}{section*.17}
+\contentsline {subsection}{\numberline {5.4.3}Solution of Linear Systems of Equations}{162}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Inverse of a Matrix and the Determinant}{164}{subsection.5.4.4}
+\contentsline {subsubsection}{Scattering Equation and Principal Value Integrals via Matrix Inversion}{168}{section*.18}
+\contentsline {subsubsection}{Inverse of the Vandermonde Matrix}{171}{section*.19}
+\contentsline {subsection}{\numberline {5.4.5}Tridiagonal Systems of Linear Equations}{173}{subsection.5.4.5}
+\contentsline {section}{\numberline {5.5}Spline Interpolation}{175}{section.5.5}
+\contentsline {section}{\numberline {5.6}Iterative Methods}{177}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Jacobi's method}{177}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Gauss-Seidel}{178}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.3}Successive over-relaxation}{179}{subsection.5.6.3}
+\contentsline {subsection}{\numberline {5.6.4}Conjugate Gradient Method}{180}{subsection.5.6.4}
+\contentsline {section}{\numberline {5.7}A vector and matrix class}{183}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}How to construct your own matrix-vector class}{185}{subsection.5.7.1}
+\contentsline {section}{\numberline {5.8}Exercises}{198}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}Solution}{203}{subsection.5.8.1}
 \gdef \the@ipfilectr {}
-\contentsline {part}{II\hspace {1em}Linear Algebra and Eigenvalues}{68}{part.2}
 \gdef \the@ipfilectr {@-8}
+\contentsline {chapter}{\numberline {6}Eigensystems}{207}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{207}{section.6.1}
+\contentsline {section}{\numberline {6.2}Eigenvalue problems}{207}{section.6.2}
+\contentsline {section}{\numberline {6.3}Similarity transformations}{209}{section.6.3}
+\contentsline {section}{\numberline {6.4}Jacobi's method}{210}{section.6.4}
+\contentsline {section}{\numberline {6.5}Similarity Transformations with Householder's method}{216}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}The Householder's method for tridiagonalization}{216}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Diagonalization of a Tridiagonal Matrix via Francis' Algorithm}{220}{subsection.6.5.2}
+\contentsline {section}{\numberline {6.6}Power Methods}{222}{section.6.6}
+\contentsline {section}{\numberline {6.7}Iterative methods: Lanczos' algorithm}{223}{section.6.7}
+\contentsline {section}{\numberline {6.8}Schr\"odinger's Equation Through Diagonalization}{225}{section.6.8}
+\contentsline {subsection}{\numberline {6.8.1}Numerical solution of the Schr\"odinger equation by diagonalization}{228}{subsection.6.8.1}
+\contentsline {subsection}{\numberline {6.8.2}Program example and results for the one-dimensional harmonic oscillator}{229}{subsection.6.8.2}
+\contentsline {section}{\numberline {6.9}Exercises}{235}{section.6.9}
 \gdef \the@ipfilectr {}
+\contentsline {part}{III\hspace {1em}Differential equations}{242}{part.3}
 \gdef \the@ipfilectr {@-9}
+\contentsline {chapter}{\numberline {7}Differential equations}{243}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{243}{section.7.1}
+\contentsline {section}{\numberline {7.2}Ordinary differential equations}{244}{section.7.2}
+\contentsline {section}{\numberline {7.3}Finite difference methods}{246}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Improvements of Euler's algorithm, higher-order methods}{249}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Verlet and Leapfrog algorithms}{250}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Predictor-Corrector methods}{251}{subsection.7.3.3}
+\contentsline {section}{\numberline {7.4}More on finite difference methods, Runge-Kutta methods}{252}{section.7.4}
+\contentsline {section}{\numberline {7.5}Adaptive Runge-Kutta and multistep methods}{256}{section.7.5}
+\contentsline {section}{\numberline {7.6}Physics examples}{258}{section.7.6}
+\contentsline {subsection}{\numberline {7.6.1}Ideal harmonic oscillations}{258}{subsection.7.6.1}
+\contentsline {subsubsection}{Program to solve the differential equations for a sliding block}{261}{section*.20}
+\contentsline {subsection}{\numberline {7.6.2}Damping of harmonic oscillations and external forces}{263}{subsection.7.6.2}
+\contentsline {subsection}{\numberline {7.6.3}The pendulum, a nonlinear differential equation}{265}{subsection.7.6.3}
+\contentsline {section}{\numberline {7.7}Physics Project: the pendulum}{267}{section.7.7}
+\contentsline {subsection}{\numberline {7.7.1}Analytic results for the pendulum}{267}{subsection.7.7.1}
+\contentsline {subsection}{\numberline {7.7.2}The pendulum code}{269}{subsection.7.7.2}
+\contentsline {section}{\numberline {7.8}Exercises}{273}{section.7.8}
 \gdef \the@ipfilectr {}
-\contentsline {part}{III\hspace {1em}Differential equations}{69}{part.3}
 \gdef \the@ipfilectr {@-10}
+\contentsline {chapter}{\numberline {8}Two point boundary value problems}{290}{chapter.8}
+\contentsline {section}{\numberline {8.1}Introduction}{290}{section.8.1}
+\contentsline {section}{\numberline {8.2}Shooting methods}{291}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Improved approximation to the second derivative, Numerov's method}{292}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Wave equation with constant acceleration}{293}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Schr\"{o}dinger equation for spherical potentials}{298}{subsection.8.2.3}
+\contentsline {subsubsection}{Schr\"{o}dinger equation for a spherical box potential}{299}{section*.24}
+\contentsline {subsubsection}{Analysis of $u(\rho )$ at $\rho = 0$}{299}{section*.25}
+\contentsline {subsubsection}{Analysis of $u(\rho )$ for $\rho \DOTSB \relbar \joinrel \rightarrow \infty $}{299}{section*.26}
+\contentsline {section}{\numberline {8.3}Numerical procedure, shooting and matching}{299}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Algorithm for solving Schr\"odinger's equation}{300}{subsection.8.3.1}
+\contentsline {section}{\numberline {8.4}Green's function approach}{302}{section.8.4}
+\contentsline {section}{\numberline {8.5}Exercises}{307}{section.8.5}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-11}
+\contentsline {chapter}{\numberline {9}Partial Differential Equations}{310}{chapter.9}
+\contentsline {section}{\numberline {9.1}Introduction}{310}{section.9.1}
+\contentsline {section}{\numberline {9.2}Diffusion equation}{312}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Explicit Scheme}{314}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Implicit Scheme}{318}{subsection.9.2.2}
+\contentsline {subsubsection}{Program Example for Implicit Equation}{319}{section*.27}
+\contentsline {subsection}{\numberline {9.2.3}Crank-Nicolson scheme}{320}{subsection.9.2.3}
+\contentsline {subsubsection}{Parts of Code for the Crank-Nicolson Scheme}{322}{section*.28}
+\contentsline {subsection}{\numberline {9.2.4}Solution for the One-dimensional Diffusion Equation}{323}{subsection.9.2.4}
+\contentsline {subsection}{\numberline {9.2.5}Explict scheme for the diffusion equation in two dimensions}{325}{subsection.9.2.5}
+\contentsline {section}{\numberline {9.3}Laplace's and Poisson's Equations}{326}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}Scheme for solving Laplace's (Poisson's) equation}{328}{subsection.9.3.1}
+\contentsline {subsection}{\numberline {9.3.2}Jacobi Algorithm for solving Laplace's Equation}{330}{subsection.9.3.2}
+\contentsline {subsection}{\numberline {9.3.3}Jacobi's algorithm extended to the diffusion equation in two dimensions}{332}{subsection.9.3.3}
+\contentsline {section}{\numberline {9.4}Wave Equation in two Dimensions}{334}{section.9.4}
+\contentsline {subsection}{\numberline {9.4.1}Closed-form Solution}{336}{subsection.9.4.1}
+\contentsline {section}{\numberline {9.5}Exercises}{338}{section.9.5}
 \gdef \the@ipfilectr {}
+\contentsline {part}{IV\hspace {1em}Monte Carlo Methods}{351}{part.4}
 \gdef \the@ipfilectr {@-12}
+\contentsline {chapter}{\numberline {10}Outline of the Monte Carlo Strategy}{352}{chapter.10}
+\contentsline {section}{\numberline {10.1}Introduction}{352}{section.10.1}
+\contentsline {subsection}{\numberline {10.1.1}Definitions}{355}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {10.1.2}First Illustration of the Use of Monte-Carlo Methods}{357}{subsection.10.1.2}
+\contentsline {subsection}{\numberline {10.1.3}Second Illustration, Particles in a Box}{362}{subsection.10.1.3}
+\contentsline {subsection}{\numberline {10.1.4}Radioactive Decay}{365}{subsection.10.1.4}
+\contentsline {subsection}{\numberline {10.1.5}Program Example for Radioactive Decay}{366}{subsection.10.1.5}
+\contentsline {subsection}{\numberline {10.1.6}Brief Summary}{367}{subsection.10.1.6}
+\contentsline {section}{\numberline {10.2}Probability Distribution Functions}{368}{section.10.2}
+\contentsline {subsection}{\numberline {10.2.1}Multivariable Expectation Values}{372}{subsection.10.2.1}
+\contentsline {subsection}{\numberline {10.2.2}The Central Limit Theorem}{374}{subsection.10.2.2}
+\contentsline {subsection}{\numberline {10.2.3}Definition of Correlation Functions and Standard Deviation}{375}{subsection.10.2.3}
+\contentsline {section}{\numberline {10.3}Random Numbers}{377}{section.10.3}
+\contentsline {subsection}{\numberline {10.3.1}Properties of Selected Random Number Generators}{381}{subsection.10.3.1}
+\contentsline {section}{\numberline {10.4}Improved Monte Carlo Integration}{382}{section.10.4}
+\contentsline {subsection}{\numberline {10.4.1}Change of Variables}{384}{subsection.10.4.1}
+\contentsline {subsubsection}{Transformed Uniform Distribution}{385}{section*.29}
+\contentsline {subsubsection}{Exponential Distribution}{385}{section*.30}
+\contentsline {subsubsection}{Another Example}{386}{section*.31}
+\contentsline {subsubsection}{Normal Distribution}{387}{section*.32}
+\contentsline {subsection}{\numberline {10.4.2}Importance Sampling}{388}{subsection.10.4.2}
+\contentsline {subsection}{\numberline {10.4.3}Acceptance-Rejection Method}{390}{subsection.10.4.3}
+\contentsline {section}{\numberline {10.5}Monte Carlo Integration of Multidimensional Integrals}{391}{section.10.5}
+\contentsline {subsection}{\numberline {10.5.1}Brute Force Integration}{392}{subsection.10.5.1}
+\contentsline {subsection}{\numberline {10.5.2}Importance Sampling}{393}{subsection.10.5.2}
+\contentsline {section}{\numberline {10.6}Classes for Random Number Generators}{395}{section.10.6}
+\contentsline {section}{\numberline {10.7}Exercises}{397}{section.10.7}
 \gdef \the@ipfilectr {}
-\contentsline {part}{IV\hspace {1em}Monte Carlo Methods}{70}{part.4}
 \gdef \the@ipfilectr {@-13}
+\contentsline {chapter}{\numberline {11}Random walks and the Metropolis algorithm}{402}{chapter.11}
+\contentsline {section}{\numberline {11.1}Motivation}{402}{section.11.1}
+\contentsline {section}{\numberline {11.2}Diffusion Equation and Random Walks}{403}{section.11.2}
+\contentsline {subsection}{\numberline {11.2.1}Diffusion Equation}{404}{subsection.11.2.1}
+\contentsline {subsection}{\numberline {11.2.2}Random Walks}{407}{subsection.11.2.2}
+\contentsline {section}{\numberline {11.3}Microscopic Derivation of the Diffusion Equation}{410}{section.11.3}
+\contentsline {subsection}{\numberline {11.3.1}Discretized Diffusion Equation and Markov Chains}{411}{subsection.11.3.1}
+\contentsline {subsubsection}{An Illustrative Example}{414}{section*.33}
+\contentsline {subsection}{\numberline {11.3.2}Continuous Equations}{417}{subsection.11.3.2}
+\contentsline {subsection}{\numberline {11.3.3}Numerical Simulation}{418}{subsection.11.3.3}
+\contentsline {section}{\numberline {11.4}Entropy and Equilibrium Features}{421}{section.11.4}
+\contentsline {section}{\numberline {11.5}The Metropolis Algorithm and Detailed Balance}{423}{section.11.5}
+\contentsline {subsection}{\numberline {11.5.1}Brief Summary}{430}{subsection.11.5.1}
+\contentsline {section}{\numberline {11.6}Langevin and Fokker-Planck Equations}{432}{section.11.6}
+\contentsline {subsection}{\numberline {11.6.1}Fokker-Planck Equation}{432}{subsection.11.6.1}
+\contentsline {subsection}{\numberline {11.6.2}Langevin Equation}{435}{subsection.11.6.2}
+\contentsline {section}{\numberline {11.7}Exercises}{437}{section.11.7}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-14}
+\contentsline {chapter}{\numberline {12}Monte Carlo Methods in Statistical Physics}{445}{chapter.12}
+\contentsline {section}{\numberline {12.1}Introduction and Motivation}{445}{section.12.1}
+\contentsline {section}{\numberline {12.2}Review of Statistical Physics}{449}{section.12.2}
+\contentsline {subsection}{\numberline {12.2.1}Microcanonical Ensemble}{450}{subsection.12.2.1}
+\contentsline {subsection}{\numberline {12.2.2}Canonical Ensemble}{451}{subsection.12.2.2}
+\contentsline {subsection}{\numberline {12.2.3}Grand Canonical and Pressure Canonical}{454}{subsection.12.2.3}
+\contentsline {section}{\numberline {12.3}Ising Model and Phase Transitions in Magnetic Systems}{455}{section.12.3}
+\contentsline {subsection}{\numberline {12.3.1}Theoretical Background}{455}{subsection.12.3.1}
+\contentsline {section}{\numberline {12.4}Phase Transitions and Critical Phenomena}{464}{section.12.4}
+\contentsline {subsection}{\numberline {12.4.1}The Ising Model and Phase Transitions}{466}{subsection.12.4.1}
+\contentsline {subsection}{\numberline {12.4.2}Critical Exponents and Phase Transitions from Mean-field Models}{469}{subsection.12.4.2}
+\contentsline {section}{\numberline {12.5}The Metropolis Algorithm and the Two-dimensional Ising Model}{472}{section.12.5}
+\contentsline {subsection}{\numberline {12.5.1}Parallelization of the Ising Model}{480}{subsection.12.5.1}
+\contentsline {section}{\numberline {12.6}Selected Results for the Ising Model}{482}{section.12.6}
+\contentsline {section}{\numberline {12.7}Correlation Functions and Further Analysis of the Ising Model}{484}{section.12.7}
+\contentsline {subsection}{\numberline {12.7.1}Thermalization}{484}{subsection.12.7.1}
+\contentsline {subsection}{\numberline {12.7.2}Time-correlation Function}{487}{subsection.12.7.2}
+\contentsline {section}{\numberline {12.8}The Potts' model}{490}{section.12.8}
+\contentsline {section}{\numberline {12.9}Exercises}{492}{section.12.9}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-15}
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-16}
+\contentsline {chapter}{\numberline {13}Quantum Monte Carlo Methods}{497}{chapter.13}
+\contentsline {section}{\numberline {13.1}Introduction}{497}{section.13.1}
+\contentsline {section}{\numberline {13.2}Postulates of Quantum Mechanics}{499}{section.13.2}
+\contentsline {subsection}{\numberline {13.2.1}Mathematical Properties of the Wave Functions}{499}{subsection.13.2.1}
+\contentsline {subsection}{\numberline {13.2.2}Important Postulates}{500}{subsection.13.2.2}
+\contentsline {subsubsection}{Postulate I}{500}{section*.34}
+\contentsline {subsubsection}{Postulate II}{501}{section*.35}
+\contentsline {subsubsection}{Postulate III}{501}{section*.36}
+\contentsline {subsubsection}{Postulate IV}{501}{section*.37}
+\contentsline {section}{\numberline {13.3}First Encounter with the Variational Monte Carlo Method}{502}{section.13.3}
+\contentsline {section}{\numberline {13.4}Variational Monte Carlo for Quantum Mechanical Systems}{503}{section.13.4}
+\contentsline {subsection}{\numberline {13.4.1}First illustration of Variational Monte Carlo Methods}{506}{subsection.13.4.1}
+\contentsline {section}{\numberline {13.5}Variational Monte Carlo for atoms}{508}{section.13.5}
+\contentsline {subsection}{\numberline {13.5.1}The Born-Oppenheimer Approximation}{509}{subsection.13.5.1}
+\contentsline {subsection}{\numberline {13.5.2}The Hydrogen Atom}{511}{subsection.13.5.2}
+\contentsline {subsection}{\numberline {13.5.3}Metropolis sampling for the hydrogen atom and the harmonic oscillator}{516}{subsection.13.5.3}
+\contentsline {subsection}{\numberline {13.5.4}The Helium Atom}{518}{subsection.13.5.4}
+\contentsline {subsubsection}{Choice of trial wave function}{521}{section*.38}
+\contentsline {subsection}{\numberline {13.5.5}Program Example for Atomic Systems}{524}{subsection.13.5.5}
+\contentsline {subsection}{\numberline {13.5.6}Importance sampling}{531}{subsection.13.5.6}
+\contentsline {section}{\numberline {13.6}Exercises}{532}{section.13.6}
 \gdef \the@ipfilectr {}

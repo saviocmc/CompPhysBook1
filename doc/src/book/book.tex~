@@ -175,9 +175,24 @@ tabsize=2
 
 \mainmatter
 
-\include{part1}
+\part{Introduction to Programming}
 \include{chapter1}
 \include{chapter2}
+\include{chapter4}
+\include{chapter5}
+\part{Linear Algebra and Eigenvalues}
+\include{chapters/Chapter6/chapter6}
+\include{chapters/Chapter7/chapter7}
+\part{Differential equations}
+\include{chapter8}
+\include{chapter9}
+\include{chapter10}
+\part{Monte Carlo Methods}
+\include{chapter11}
+\include{chapter12}
+\include{chapter13}
+\include{chapter14}
+
 %\include{chapters/Chapter3/chapter3}
 
 
@@ -190,19 +205,5 @@ tabsize=2
 
 
 
-\include{chapter4}
-\include{chapter5}
-\part{Linear Algebra and Eigenvalues}
-\include{chapter6}
-\include{chapter7}
-\part{Differential equations}
-\include{chapter8}
-\include{chapter9}
-\include{chapter10}
-\part{Monte Carlo Methods}
-\include{chapter11}
-\include{chapter12}
-\include{chapter13}
-\include{chapter14}
 
 
