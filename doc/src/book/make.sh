@@ -1,10 +1,10 @@
 #!/bin/bash
-latex book.tex
+latex IntroductoryBook.tex
 for auxfile in chap*.aux
 do
     bibtex `basename $auxfile .aux`
 done
-latex book.tex
-latex book.tex
-dvips -o book.ps book.dvi
-ps2pdf book.ps
+latex IntroductoryBook.tex
+latex IntroductoryBook.tex
+dvips -o IntroductoryBook.ps IntroductoryBook.dvi
+ps2pdf IntroductoryBook.ps

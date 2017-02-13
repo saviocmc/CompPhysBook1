@@ -1,0 +1,92 @@
+\begin{thebibliography}{10}
+
+\bibitem{lapack}
+{\em LAPACK -- Linear Algebra PACKage}.
+\newblock \url{http://www.netlib.org/lapack/}.
+
+\bibitem{barton}
+J.J. Barton and L.R. Nackman.
+\newblock {\em Scientific and Engineering C++}.
+\newblock Addison Wesley, 1994.
+
+\bibitem{berryhill}
+J.R. Berryhill.
+\newblock {\em C++ Scientific Programming}.
+\newblock Wiley-Interscience, 2001.
+
+\bibitem{datta}
+B.N. Datta.
+\newblock {\em Numerical Linear Algebra and Applications}.
+\newblock Brooks/Cole Publishing Company, 1995.
+
+\bibitem{demmel}
+J.W. Demmel.
+\newblock {\em Numerical Linear Algebra}.
+\newblock SIAM Publications, 1996.
+
+\bibitem{fermi1927}
+E.~Fermi.
+\newblock Un metodo statistico per la determinazione di alcune propriet{\`a}
+  dell'atomo.
+\newblock {\em Rend. Accad. Naz. Lincei}, 6:602, 1927.
+
+\bibitem{flowers}
+B.H. Flowers.
+\newblock {\em An Introduction to Numerical Methods in C++}.
+\newblock Oxford University Press, 2000.
+
+\bibitem{franek}
+F.~Franek.
+\newblock {\em Memory as a Programming Concept in C and C++}.
+\newblock Cambridge University Press, 2004.
+
+\bibitem{golub1996}
+G.H. Golub and C.F. Van~Loan.
+\newblock {\em Matrix Computations}.
+\newblock John Hopkins University Press, 1996.
+
+\bibitem{kincaid}
+D.~Kincaid and W.~Cheney.
+\newblock {\em Numerical Analysis}.
+\newblock Brooks/Gole Publishing Company, 1996.
+
+\bibitem{kress}
+R.~Kress.
+\newblock {\em Numerical Analysis}.
+\newblock Springer, 1998.
+
+\bibitem{blas}
+C.~L. Lawson, R.~J. Hanson, D.~Kincaid, and F.~T. Krogh.
+\newblock {\em ACM Trans. Math. Soft.}, 5:308, 1979.
+
+\bibitem{lieb1981}
+Elliott~H. Lieb.
+\newblock Thomas-fermi and related theories of atoms and molecules.
+\newblock {\em Rev. Mod. Phys.}, 53(4):603--641, Oct 1981.
+
+\bibitem{numrec}
+W.H. Press, B.P. Flannery, S.A. Teukolsky, and W.T. Vetterling.
+\newblock {\em Numerical Recipes in C++, The art of scientific Computing}.
+\newblock Cambridge University Press, 1999.
+
+\bibitem{reek}
+K.A. Reek.
+\newblock {\em Pointers on C}.
+\newblock Addison Wesley, 1998.
+
+\bibitem{thomas1927}
+L.~H. Thomas.
+\newblock The calculation of atomic fields.
+\newblock {\em Proc. Camb. Phil. Soc.}, 23:542, 1927.
+
+\bibitem{trefethen}
+L.N. Trefethen and D.~Bau~III.
+\newblock {\em Numerical Linear Algebra}.
+\newblock SIAM Publications, 1997.
+
+\bibitem{blitzref}
+T.~Veldhuizen.
+\newblock {\em Blitz++ User's Guide}.
+\newblock \url{http://www.oonumerics.org/blitz/}, 2003.
+
+\end{thebibliography}

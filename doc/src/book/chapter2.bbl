@@ -5,4 +5,10 @@ D.~Kincaid and W.~Cheney.
 \newblock {\em Numerical Analysis}.
 \newblock Brooks/Gole Publishing Company, 1996.
 
+\bibitem{langtangen2009}
+H.P. Langtangen.
+\newblock {\em Introduction to Computer Programming; A Python-based approach
+  for Computational Science}.
+\newblock Springer Verlag, 2009.
+
 \end{thebibliography}

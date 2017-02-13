@@ -18,10 +18,36 @@ B.H. Flowers.
 \newblock {\em An Introduction to Numerical Methods in C++}.
 \newblock Oxford University Press, 2000.
 
+\bibitem{gibbs1994}
+J.~Gibbs.
+\newblock {\em Computational Physics}.
+\newblock World Scientific, 1994.
+
+\bibitem{giordano2005}
+B.~Giordano and H.~Nakanishi.
+\newblock {\em Computational Physics}.
+\newblock Preston, 2005.
+
+\bibitem{gould1996}
+H.~Gould and J.~Tobochnik.
+\newblock {\em An Introduction to Computer Simulation Methods: Applications to
+  Physical Systems}.
+\newblock Addison-Wesley, 1996.
+
+\bibitem{gropp1999}
+W.~Gropp, E.~Lusk, and A.~Skjellum.
+\newblock {\em Using MPI}.
+\newblock The MIT Press, 1999.
+
 \bibitem{guardiola}
 R.~Guardiola, E.~Higon, and J.~Ros.
 \newblock {\em Metodes Num\`erics per a la F\'isica}.
 \newblock Universitat de Valencia, 1997.
+
+\bibitem{cmpi}
+G.~E. Karniadakis and R.~M. Kirby~II.
+\newblock {\em Parallel scientific computing in C++ and MPI}.
+\newblock Cambridge, 2005.
 
 \bibitem{km90}
 S.E. Koonin and D.~Meredith.
@@ -32,6 +58,32 @@ S.E. Koonin and D.~Meredith.
 R.H. Landau and M.J. Paez.
 \newblock {\em Computational Physics}.
 \newblock Wiley, 1997.
+
+\bibitem{langtangen2006}
+H.P. Langtangen.
+\newblock {\em Python Scripting for Computational Science}.
+\newblock Springer, 2006.
+
+\bibitem{langtangen2009}
+H.P. Langtangen.
+\newblock {\em Introduction to Computer Programming; A Python-based approach
+  for Computational Science}.
+\newblock Springer Verlag, 2009.
+
+\bibitem{marshall1995}
+A.C. Marshall.
+\newblock {\em Fortran 90 Programming}.
+\newblock University of Liverpool, 1995.
+
+\bibitem{metcalf1996}
+M.~Metcalf and J.~Reid.
+\newblock {\em The F90 Programming Language}.
+\newblock Oxford University Press, 1996.
+
+\bibitem{f2003}
+J.~Reid.
+\newblock The new features of fortran 2003.
+\newblock Technical report, ISO working group on Fortran, 2007.
 
 \bibitem{fritz}
 E.W. Schmid, G.~Spitz, and W.~L\"osch.
@@ -48,9 +100,14 @@ M.~Snir, S.~Otto, S.~Huss-Ledermann, D.~Walker, and J.~Dongarra.
 \newblock {\em MPI, the Complete Reference, Vols I and II}.
 \newblock The MIT Press, 1998.
 
+\bibitem{stoustrup1997}
+B.~Stoustrup.
+\newblock {\em The C++ Programming Language}.
+\newblock Pearson, 1997.
+
 \bibitem{thij}
 J.M. Thijssen.
 \newblock {\em Computational Physics}.
-\newblock Springer Verlag, 1999.
+\newblock Cambridge, 1999.
 
 \end{thebibliography}

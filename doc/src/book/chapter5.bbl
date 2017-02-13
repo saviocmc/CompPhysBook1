@@ -1,0 +1,28 @@
+\begin{thebibliography}{1}
+
+\bibitem{gropp1999}
+W.~Gropp, E.~Lusk, and A.~Skjellum.
+\newblock {\em Using MPI}.
+\newblock The MIT Press, 1999.
+
+\bibitem{cmpi}
+G.~E. Karniadakis and R.~M. Kirby~II.
+\newblock {\em Parallel scientific computing in C++ and MPI}.
+\newblock Cambridge, 2005.
+
+\bibitem{kress}
+R.~Kress.
+\newblock {\em Numerical Analysis}.
+\newblock Springer, 1998.
+
+\bibitem{mpiref}
+M.~Snir, S.~Otto, S.~Huss-Ledermann, D.~Walker, and J.~Dongarra.
+\newblock {\em MPI, the Complete Reference, Vols I and II}.
+\newblock The MIT Press, 1998.
+
+\bibitem{st1983}
+J.~Stoer and R.~Bulirsch.
+\newblock {\em Introduction to Numerical Analysis}.
+\newblock Springer Verlag, 1983.
+
+\end{thebibliography}
