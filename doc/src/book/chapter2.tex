@@ -293,12 +293,12 @@ executable file under Linux/Unix.
 
 In order to obtain an executable file for a C++ program, the following 
 instructions under Linux/Unix can be used
-\begin{svgraybox}
+\begin{tcolorbox}
 \begin{verbatim}
 c++ -c -Wall myprogram.c
 c++ -o myprogram myprogram.o
 \end{verbatim}
-\end{svgraybox}
+\end{tcolorbox}
 where the compiler is called through the command \verb$c++$. The compiler
 option -Wall means that a warning is issued in case of non-standard
 language. The executable file is in this case \verb$myprogram$. The option
@@ -346,19 +346,19 @@ possible errors already while compiling. I recommend strongly that you declare a
 when using Fortran.
 
 We call the Fortran compiler (using free format) through 
-\begin{svgraybox}
+\begin{tcolorbox}
 \begin{verbatim}
 gfortran -c -free myprogram.f90
 gfortran -o myprogram.x  myprogram.o
 \end{verbatim}
-\end{svgraybox}
+\end{tcolorbox}
 Under Linux/Unix it is often convenient to create a
 so-called makefile, which is a script which includes possible
 compiling commands, in order to avoid retyping the above lines
 every once and then we have made modifcations to our program.
 A typical makefile for the above $cc$ compiling options is listed
 below
-\begin{svgraybox}
+\begin{tcolorbox}
 \begin{verbatim}
 # General makefile for c - choose PROG =   name of given program
 
@@ -376,13 +376,13 @@ ${PROG}.o :       ${PROG}.cpp
                   ${CC} -c ${PROG}.cpp
 
 \end{verbatim}   
-\end{svgraybox}                                            
+\end{tcolorbox}                                            
 If you name your file for 'makefile', simply type the command
 {\bf make} and Linux/Unix executes all of the statements in the above
 makefile. Note that C++ files have the extension .cpp
 
 For Fortran, a similar makefile is
-\begin{svgraybox}
+\begin{tcolorbox}
 \begin{verbatim}
 # General makefile for F90 - choose PROG =   name of given program
 
@@ -399,7 +399,7 @@ ${PROG} :          ${PROG}.o
 ${PROG}.o :       ${PROG}.f90
                   ${F90} -c ${PROG}.f
 \end{verbatim}                                               
-\end{svgraybox}
+\end{tcolorbox}
 
 Finally, for the sake of completeness, we list the corresponding Python code
 \lstset{language=python}
@@ -611,13 +611,13 @@ int main()
 // End: program main() 
 \end{lstlisting}
 If we run this code with an exponent $N=32$, we obtain the following output
-\begin{svgraybox}
+\begin{tcolorbox}
 \begin{verbatim}
 2^N * 2^N = 0
 2^N*(2^N - 1) = -2147483648
 2^N- 1 = 2147483647
 \end{verbatim}
-\end{svgraybox}
+\end{tcolorbox}
 We notice that $2^{64}$ exceeds the limit for integer numbers with 32 bits.  The program returns $0$.
 This can be dangerous, since the results from the operation $2^N(2^N-1)$ is obviously wrong.
 One possibility to avoid such cases is to add compilation options which flag if an overflow or underflow
@@ -1881,7 +1881,7 @@ Writes the value of  var in decimal notation\%d.
 } % end small
 %
 The ouput of this program, compiled with g++, reads
-\begin{svgraybox}
+\begin{tcolorbox}
 \begin{verbatim}
 Address of the integer variable var : 0xbfffeb74
 Value of var: 421
@@ -1889,7 +1889,7 @@ Value of integer pointer variable : 0xbfffeb74
 The value which pointer is pointing at :  421
 Address of the pointer variable : 0xbfffeb70
 \end{verbatim}
-\end{svgraybox}
+\end{tcolorbox}
 In the next example we consider the link between arrays and pointers.
 \begin{center}
 \begin{tabular}{ll}
@@ -1970,7 +1970,7 @@ Values are assigned to the array matr.
 \end{center}  
 } % end small  
 The ouput of this example, compiled again with g++, is
-\begin{svgraybox}
+\begin{tcolorbox}
 \begin{verbatim}
 Address of the matrix element matr[1]: 0xbfffef70
 Value of the  matrix element  matr[1]; 321
@@ -1981,7 +1981,7 @@ The value pointer points at: 321
 The value that (pointer+1) points at:  322
 Address of the pointer variable : 0xbfffef6c
 \end{verbatim}
-\end{svgraybox}
+\end{tcolorbox}
 
 
 \subsection{Macros in C++}
@@ -2760,17 +2760,17 @@ the ANSI C++ standard.
 
 \section{Exercises}
 
-%\subsection*{Exercise 2.1: Converting from decimal to binary representation}
-\begin{prob}
+\subsection*{Exercise 2.1: Converting from decimal to binary representation}
+
 Set up an algorithm
 which converts a floating number given in the decimal representation 
 to the binary representation. You may or may not use a scientific representation.
 Write thereafter a program which implements this algorithm. 
-\end{prob}
 
 
-%\subsection*{Exercise 2.1: Summing series}
-\begin{prob}
+
+\subsection*{Exercise 2.1: Summing series}
+
 Make a program which sums
 \begin{enumerate}
 \item
@@ -2794,11 +2794,11 @@ with $n=1,2,\dots,10$. This means you need to compute
 $log_{10}(|(s_{\mathrm{up}}(N)-s_{\mathrm{down}}(N))/s_{\mathrm{down}}(N)|)$
 as function of  $log_{10}(N)$. 
 \end{enumerate}
-\end{prob}
 
 
-%\subsection*{prob 2.3: Finding alternative expressions}
-\begin{prob}
+
+\subsection*{prob 2.3: Finding alternative expressions}
+
 Write a program which computes 
 \[
    f(x) = x -\sin{x},
@@ -2820,20 +2820,19 @@ $x-\sin{x}$.
 
 For $|x| < 1.9$ you should device a recurrence relation for the terms in the series
 expansion in order to avoid having to compute very large factorials.
-\end{prob}
 
 
-\begin{prob}
-%\subsection*{prob 2.4: Computing $e^{-x}$}
+
+
+\subsection*{prob 2.4: Computing $e^{-x}$}
 Assume that you do not have access to the intrinsic function for $\exp{x}$. Write your own
 algorithm for $\exp{(-x)}$  for all possible values of $x$, with special care on how to 
 avoid the loss of precision problems
 discussed in the text.  Write thereafter a program which implements this algorithm.
-\end{prob}
 
 
-%\subsection*{prob 2.5: Computing the quadratic equation}
-\begin{prob}
+
+\subsection*{prob 2.5: Computing the quadratic equation}
 The classical quadratic equation $ax^2+bx+c=$ with solution
 \[
       x = \left(-b\pm \sqrt{b^2-4ac}\right)/2a,
@@ -2841,28 +2840,27 @@ The classical quadratic equation $ax^2+bx+c=$ with solution
 needs particular attention when $4ac$ is small relative to $b^2$. Find an algorithm which 
 yields stable results for all possible values of $a$, $b$ and $c$. Write thereafter a program and 
 test the results of your computations.
-\end{prob}
 
 
-\begin{prob}
-%\subsection*{prob 2.6: Fortran, C++ and Python functions for machine rounding}
+
+
+\subsection*{prob 2.6: Fortran, C++ and Python functions for machine rounding}
 Write a Fortran program which reads a real number $x$ and computes the precision in bits (using the function
 \lstinline{DIGIT(x)})for single and double precision, the smallest positive number
 (using \lstinline{TINY(x)}), the largets positive number (using the function \lstinline{HUGE(x)})
 and the number of leading digits (using the function \lstinline{PRECISION(x)}).  
 Try thereafter to find similar functionalities in C++ and Python.
-\end{prob}
 
 
-\begin{prob}
-%\subsection*{prob 2.7: Nearest machine number}
+
+\subsection*{prob 2.7: Nearest machine number}
 Write an algorithm and program which reads in a real number $x$ and finds the two nearest machine
 numbers $x_{-}$ and $x_{+}$, the corresponding relative errors and absolute errors.  
-\end{prob}
 
 
-\begin{prob}
-%\subsection*{prob 2.8: Recurrence relations}
+
+
+\subsection*{prob 2.8: Recurrence relations}
 Recurrence relations are
 extremely useful in representing functions, and form expedient ways of
 representing important classes of functions used in the Sciences. We will
@@ -2941,11 +2939,11 @@ in two ways: first by computing the series of Eq.~(ref{four-1})
 and then using the equation given in Eq.~(\ref{four-3}).
 Assume that $a_n=(n+2)/(n+1)$, set e.g., $N=1000$ and try with different
 $x$-values as input.
-\end{prob}
 
 
-\begin{prob}
-%\subsection*{prob 2.9: Continued fractions}
+
+
+\subsection*{prob 2.9: Continued fractions}
 
  Often, especially when one encounters singular behaviors, one may
  need to rewrite the function to be evaluated in terms of a taylor
@@ -2955,9 +2953,9 @@ $x$-values as input.
  of successive substitutions. Let us illustrate this by a simple example,
  namely the solution of a second order equation
 %
- \be \label{eq:exercise210}
+ \begin{equation} \label{eq:exercise210}
     x^2-4x-1=0,
- \ee
+ \eend{equation}
 %
  which we rewrite as
 %
@@ -3002,11 +3000,11 @@ $x$-values as input.
 Write a program which implements this continued fraction algorithm and solve 
 iteratively Eq.~(\ref{eq:exercise210}).   The exact solution is  $x=0.23607$ 
  while already after three iterations you should obtain $x_3=0.236111$.
-\end{prob}
 
 
-\begin{prob}
-%\subsection*{Project 2.1: Special functions, spherical harmonics and associated Legendre polynomials}
+
+
+\subsection*{Project 2.1: Special functions, spherical harmonics and associated Legendre polynomials}
 Many physics problems have spherical harmonics as solutions, such as the angular part of
 the Schr\"odinger equation for the hydrogen atom or the angular part of the three-dimensional 
 wave equation or Poisson's equation. 
@@ -3055,8 +3053,8 @@ you can use for example gnuplot, as discussed in appendix \ref{sec:gnuplot}.
 \end{prob}
 
 
-\begin{prob}
-%\subsection*{Project 2.2: Special functions, Laguerre and Hermite polynomials}
+
+\subsection*{Project 2.2: Special functions, Laguerre and Hermite polynomials}
 Other well-known polynomials are the Laguerre and the Hermite polynomials, both being solutions 
 to famous differential equations.
 The Laguerre polynomials arise from the solution of the differential
@@ -3127,7 +3125,7 @@ and the recursion relation
 Write a program which computes the above Laguerre and Hermite polynomials 
 for different values of $n$ using the pertinent recursion relations. 
 Check your results agains some selected closed-form expressions.
-\end{prob}
+
 
 
 

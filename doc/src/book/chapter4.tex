@@ -23,35 +23,35 @@ You may have encountered examples of so-called transcendental equations when sol
 Schr\"odinger equation (SE) for a particle in a box potential. 
 The  one-dimensional 
 SE for a  particle with mass $m$ is 
-\begin{equation}
+\[
    -\frac{\hbar^2}{2m}\frac{d^2u}{dx^2}+V(x)u(x)=Eu(x),
-\end{equation}
+\]
 and our potential is defined as 
-\begin{equation}
+\[
 V(r)=\left\{ \begin{array}{cc} -V_0& 0 \le x < a \\
                                 0  & x > a \end{array} \right.
-\end{equation}
+\]
 Bound states correspond to negative energy $E$ and scattering states
 are given by positive energies.
 The SE takes the form (without specifying the sign of $E$)
-\begin{equation}
+\[
    \frac{d^2u(x)}{dx^2}+\frac{2m}{\hbar^2}\left(V_0+E\right)u(x)=0\hspace{0.5cm} x < a,
-\end{equation}
+\]
 and 
-\begin{equation}
+\[
    \frac{d^2u(x)}{dx^2}+\frac{2m}{\hbar^2}Eu(x)=0\hspace{0.5cm} x > a.
-\end{equation}
+\]
 If we specialize to bound states $E< 0$ and 
 implement the boundary conditions
 on the wave function 
 we obtain 
-\begin{equation} 
+\[
    u(r)=Asin(\sqrt{2m(V_0-|E|)}r/\hbar) \hspace{1cm} r < a,
-\end{equation}
+\]
 and 
-\begin{equation}
+\[
    u(r)=B\exp{(- \sqrt{2m|E|}r/\hbar)} \hspace{1cm} r > a,
-\end{equation}
+\]
 where $A$ and $B$ are constants. 
 Using the continuity requirement on the wave function at $r=a$ 
 one obtains the transcendental equation
@@ -76,7 +76,7 @@ approximate region along the $E-axis$ where
 $f(E)=0$. We show this in Fig.\ \ref{fig:chap8fig1} for $V_0=20$ MeV, $a=2$ fm and $m=938$ MeV.
 \begin{figure}
 %   \begin{center}
-   \input{figures/fig1chap8.tex}
+%   \input{figures/fig1chap8.tex}
 %   \end{center}
    \caption{Plot of $f(E)$ in Eq.\ (\ref{eq:ebox}) as function of energy |E| in MeV. Te function $f(E)$ is in units of megaelectronvolts MeV. Note well that the energy $E$ is for bound states.}
    \label{fig:chap8fig1}
@@ -96,32 +96,32 @@ by a given precision when doing numerics.
 Through an iterative search of the solution, the hope is that we can approach,
 within a given 
 tolerance $\epsilon$, a value $x_0$ which is a solution to $f(s)=0$ if
-\be
+\[
     |x_0-s| < \epsilon,
-\ee
+\]
 and $f(s)=0$. We 
 could use other criteria as well like
-\be
+\[
      \left|\frac{x_0-s}{s}\right| < \epsilon,
-\ee
+\]
 and $|f(x_0)| < \epsilon$ or a combination of these.
 However, it is not given that the iterative process will converge and we would like
 to have some conditions on $f$ which  ensures a solution. 
 This condition is provided by the so-called Lipschitz criterion. If the function $f$,
 defined on the interval $[a,b]$ satisfies for all $x_1$ and $x_2$ in the chosen
 interval the following condition
-\be 
+\[
    \left| f(x_1)-f(x_2)\right| \le k\left|x_1-x_2\right|,
-\ee
+\]
 with $k$ a constant, then $f$ is continuous in the interval $[a,b]$. If $f$ 
 is continuous in the interval $[a,b]$, then the secant condition gives
-\be
+\[
       f(x_1)-f(x_2) = f'(\xi)(x_1-x_2),
-\ee
+\]
 with $x_1,x_2$ within $[a,b]$ and $\xi$ within $[x_1,x_2]$. We have then
-\be 
+\[
    \left| f(x_1)-f(x_2)\right| \le |f'(\xi)|\left|x_1-x_2\right|.
-\ee
+\]
 The derivative can be used as the constant $k$. We can now formulate 
 the sufficient conditions for the convergence of the iterative search
 for solutions to $f(s)=0$. 
@@ -134,10 +134,10 @@ in the interval $[a,b]$ and it converges after $n$ iterations
 towards the solution $s$ irrespective of choice for $x_0$ in the interval
 $[a,b]$. If we let $x_n$ be the value of $x$ after $n$ iterations,
 we have the condition
-\be
+\begin{equation}
    \left|s-x_n\right| \le \frac{k}{1-k}\left|x_1-x_2\right|.
    \label{eq:itercond}
-\ee       
+\end{equation}       
 The proof can be found in the text of Bulirsch and Stoer.
 %Ref.\ \cite{bs93}. 
 Since it is difficult
@@ -146,14 +146,14 @@ numerical solution
 one implements three tests of the type
 \begin{enumerate}
 \item
-\be
+\[
     |x_n-s| < \epsilon,
-\ee
+\]
 and 
 \item
-\be
+\[
     |f(s)| < \delta,
-\ee
+\]
 \item 
 and a maximum number of iterations $N_{\mathrm{maxiter}}$
 in actual calculations.
@@ -165,9 +165,9 @@ by choosing a region in e.g., Fig.\ \ref{fig:chap8fig1} which is close to where 
 In our case $|E|\approx 2.2$. Choose a region $[a,b]$ so that $a=1.5$ and $b=3$.
 This should encompass the point where $f=0$. 
 Define then the point 
-\be
+\[
  c=\frac{a+b}{2},
-\ee
+\]
 and calculate $f(c)$. If $f(a)f(c) < 0$, the solution lies in the region $[a,c]=[a,(a+b)/2]$. 
 Change then $b\leftarrow c$ and calculate a new value for $c$. 
 If $f(a)f(c) >  0$, the new interval is in $[c,b]=[(a+b)/2,b]$. Now you need to change 
@@ -206,15 +206,15 @@ The bisection method is an almost foolproof method, although it may converge
 slowly towards the solution due to the fact that it halves the intervals.
 After $n$ divisions by $2$ we have a possible solution in the interval
 with length 
-\be
+\[
    \frac{1}{2^n}\left|b-a\right|,
-\ee
+\]
 and if we set $x_0=(a+b)/2$ and let $x_n$ be the midpoints in the intervals
 we obtain after $n$ iterations that Eq.\ (\ref{eq:itercond}) results in
-\be
+\begin{equation}
     \left|s-x_n\right| \le \frac{1}{2^{n+1}}\left|b-a\right|,
      \label{eq:bisectest}
-\ee     
+\end{equation}     
 since the $n$th interval has length $|b-a|/2^n$.
 Note that this convergence criterion is independent of the 
 actual function $f(x)$ as long as this function fulfils the conditions
@@ -223,17 +223,17 @@ discussed in the conditions discussed in the previous subsection.
 As an example, suppose we wish to find how many iteration steps are needed
 in order to obtain a relative precision of $10^{-12}$ for $x_n$ in the
 interval $[50,63]$, that is
-\be
+\[
     \frac{|s-x_n|}{|s|} \le 10^{-12}.
-\ee
+\]
 It suffices in our case to study $s \ge 50$, which results in 
-\be
+\[
     \frac{|s-x_n|}{50} \le 10^{-12},
-\ee
+\]
 and with Eq.~(\ref{eq:bisectest}) we obtain
-\be
+\[
    \frac{13}{2^{n+1}50}\le 10^{-12},
-\ee
+\]
 meaning $n \ge 37$. 
 The code for the bisection method can look like this
 \lstset{language=c++}
@@ -300,24 +300,24 @@ of that zero-crossing.
 The mathematics behind this method is rather simple. Employing a Taylor
 expansion for $x$ sufficiently close to the solution $s$, we
 have 
-\be
+\begin{equation}
     f(s)=0=f(x)+(s-x)f'(x)+\frac{(s-x)^2}{2}f''(x) +\dots.
     \label{eq:taylornr}
-\ee
+\end{equation}
 For small enough values of the function and for well-behaved functions, 
 the terms beyond
 linear are unimportant, hence we obtain
-\be
+\[
    f(x)+(s-x)f'(x)\approx 0,
-\ee
+\]
 yielding
-\be
+\[
    s\approx x-\frac{f(x)}{f'(x)}.
-\ee
+\]
 Having in mind an iterative procedure, it is natural to start iterating with
-\be
+\[
    x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}.
-\ee
+\]
 This is Newton-Raphson's method. It has a simple geometric interpretation, namely
 $x_{n+1}$ is the point where the tangent from $(x_n,f(x_n))$ crosses the $x-$axis.
 Close to the solution, Newton-Raphson converges fast
@@ -331,7 +331,7 @@ such a local extremum, so that the first derivative nearly vanishes, then Newton
 may fail totally. An example is shown in Fig.\ \ref{fig:chap8fig4}
 \begin{figure}
 %   \begin{center}
-   \input{figures/fig4chap8.tex}
+%   \input{figures/fig4chap8.tex}
 %   \end{center}
    \caption{Example of a case where Newton-Raphson's
             method does not converge. For the function $f(x)=x-2cos(x)$, we see that 
@@ -347,20 +347,20 @@ It is also possible to extract the convergence behavior
 of this method. Assume that the function $f$ has a continuous
 second derivative around the solution $s$. 
 If we define
-\be 
+\[
     e_{n+1}=x_{n+1}-s=x_n-\frac{f(x_n)}{f'(x_n)}-s,
-\ee
+\]
 and
 using Eq.\ (\ref{eq:taylornr}) we have
-\be
+\[
    e_{n+1}=e_{n}+\frac{-e_nf'(x_n)+e_n^2/2f''(\xi)}{f'(x_n)}=
            \frac{e_n^2/2f''(\xi)}{f'(x_n)}.
-\ee
+\]
 This gives
-\be
+\[
    \frac{|e_{n+1}|}{|e_n|^2}=\frac{1}{2}\frac{|f''(\xi)|}{|f'(x_n)|^2}=
    \frac{1}{2}\frac{|f''(s)|}{|f'(s)|^2}
-\ee
+\]
 when $x_n\rightarrow s$. Our error constant $k$ is then
 proportional  to $|f''(s)|/|f'(s)|^2$ if the second derivative
 is different from zero.
@@ -376,9 +376,9 @@ evaluation of derivatives involves differences between function
 values at different $x_n$. 
 
 We can rewrite the last equation as
-\be
+\[
    |e_{n+1}| =C|e_n|^2,
-\ee
+\]
 with $C$ a constant.
 If we assume that $C\sim 1$ and let $e_{n}\sim 10^{-8}$,
 this results in $e_{n+1}\sim 10^{-16}$, and demonstrates clearly why
@@ -405,9 +405,9 @@ a number $R$, i.e., $\sqrt{R}$. Let $R > 0$ and define a function
 \]
 The variable $x$ is a root if $f(x)=0$. Newton-Raphson's method
 yields then the following iterative approach to the root
-\be
+\[
    x_{n+1}=\frac{1}{2}\left(x_n+\frac{R}{x_n}\right),
-\ee
+\]
 a formula credited to Heron, a Greek engineer and architect who lived 
 sometime between 100 B.C.~and A.D.~100.
 
@@ -420,12 +420,12 @@ intrisic computational function which computes square roots.
 
 Newton's method can be generalized to systems of several non-linear equations
 and variables. Consider the case with two equations
-\be 
+\[
    \begin{array}{cc} f_1(x_1,x_2) &=0\\
                      f_2(x_1,x_2) &=0\end{array},
-\ee
+\]
 which we Taylor expand to obtain
-\be 
+\[
    \begin{array}{cc} 0=f_1(x_1+h_1,x_2+h_2)=&f_1(x_1,x_2)+h_1
                      \partial f_1/\partial x_1+h_2
                      \partial f_1/\partial x_2+\dots\\
@@ -433,26 +433,26 @@ which we Taylor expand to obtain
                      \partial f_2/\partial x_1+h_2
                      \partial f_2/\partial x_2+\dots
                        \end{array}.
-\ee
+\]
 Defining the Jacobian matrix ${\bf \hat{J}}$ we have 
-\be
+\[
  {\bf \hat{J}}=\left( \begin{array}{cc}
                          \partial f_1/\partial x_1  & \partial f_1/\partial x_2 \\
                           \partial f_2/\partial x_1     &\partial f_2/\partial x_2
              \end{array} \right),         
-\ee
+\]
 we can rephrase Newton's method as
-\be
+\[
 \left(\begin{array}{c} x_1^{n+1} \\ x_2^{n+1} \end{array} \right)=
 \left(\begin{array}{c} x_1^{n} \\ x_2^{n} \end{array} \right)+
 \left(\begin{array}{c} h_1^{n} \\ h_2^{n} \end{array} \right),
-\end{equation}
+\]
 where we have defined 
-\be
+\[
    \left(\begin{array}{c} h_1^{n} \\ h_2^{n} \end{array} \right)=
    -{\bf \hat{J}}^{-1}
    \left(\begin{array}{c} f_1(x_1^{n},x_2^{n}) \\ f_2(x_1^{n},x_2^{n}) \end{array} \right).
-\end{equation}
+\]
 We need thus to compute the inverse of the Jacobian matrix and it 
 is to understand that difficulties  may 
 arise in case ${\bf \hat{J}}$ is nearly singular. 
@@ -523,20 +523,20 @@ and combine it with the iterative expression of Newton-Raphson's
    x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)},
 \]
 to obtain 
-\be
+\[
    x_{n+1}=x_n-f(x_n)\left(\frac{x_n-x_{n-1}}{f(x_n)-f(x_{n-1})}\right),
-\ee
+\]
 which we rewrite to
-\be
+\[
    x_{n+1}=\frac{f(x_n)x_{n-1}-f(x_{n-1})x_n}{f(x_n)-f(x_{n-1})}.
-\ee
+\]
 This is the secant formula, implying that we are drawing a straight line
 from the point $(x_{n-1},f(x_{n-1}))$ to $(x_n,f(x_n))$. Where
 it crosses the $x-axis$ we have the new point $x_{n+1}$. 
 This is illustrated in Fig.\  \ref{fig:chap8fig2}.
 \begin{figure}
  %  \begin{center}
-   \input{figures/fig2chap8.tex}
+%   \input{figures/fig2chap8.tex}
  %  \end{center}
    \caption{Plot of $f(E)$ Eq.\ (\ref{eq:ebox}) as function of energy |E|. 
             The point  
@@ -550,14 +550,14 @@ quantities $x_{n-1}, x_n, x_{n+1}$ are changed to
 $a$, $b$ and $c$ respectively, i.e.,
 we determine $c$ by the point where a straight line
 from the point $(a,f(a))$ to $(b,f(b))$ crosses the $x-axis$, that is
-\be
+\[
    c=\frac{f(b)a-f(a)b}{f(b)-f(a)}.
-\ee
+\]
 We then see clearly the difference between the bisection method and the 
 secant method. The convergence criterion for the secant method is
-\be
+\[
    |e_{n+1}| \approx A|e_n|^{\alpha},
-\ee
+\]
 with $\alpha\approx 1.62$. The convergence is better than linear, but not as
 good as Newton-Raphson's method which converges quadratically. 
 
@@ -576,7 +576,7 @@ one of the endpoints is kept fixed while the other one only slowly converges to
 the desired solution.
 \begin{figure}
 %   \begin{center}
-   \input{figures/fig3chap8.tex}
+%   \input{figures/fig3chap8.tex}
 %   \end{center}
    \caption{Plot of $f(x)=25x^4-x^2/2-2$. The various straight lines correspond
             to the determination of the point $c$ after each iteration.  
@@ -660,9 +660,8 @@ Many other quasi-Newton schemes have been suggested in optimization, where one s
 
 \section{Exercises}
 
-%\subsection*{Exercise 5.1: Comparison of methods}
+\subsection*{Comparison of methods}
 
-\begin{prob}
 Write a code which implements the bisection method, Newton-Raphson's method  and
 the secant method.  
 
@@ -672,16 +671,11 @@ x^2 -4x \sin {x}+(2\sin{x})^2=0,
 \]
 using these three methods and compare the achieved accuracy number of iterations needed
 to find the solution.  Give a critical discussion of the methods.
-\end{prob}
 
-\begin{prob}
 Make thereafter a class which includes the above three methods and test this class against
 selected problems.
-\end{prob}
 
-
-%\subsection*{Project 5.1: Schr\"odinger's equation}
-\begin{prob}
+\subsection*{Schr\"odinger's equation}
 We are going to study the solution of 
 the Schr\"odinger equation (SE)
 for a system with a neutron and proton (the deuteron)
@@ -760,7 +754,7 @@ Make an analysis of these three methods and discuss how many iterations
 are needed to find a stable solution.
 
 What is smallest possible value of $V_0$ which  gives a bound state? 
-\end{prob}
+
 
 
 \bibliographystyle{plain}

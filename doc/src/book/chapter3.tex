@@ -84,9 +84,9 @@ formulae
 and taking the average afterward. We perform again
 a  Taylor expansion but now around $x_0\pm h$, namely
 %
-\be \label{eq:htaylor}
+\begin{equation} \label{eq:htaylor}
   f(x=x_0\pm h)=f(x_0)\pm hf'+\frac{h^2f''}{2}\pm\frac{h^3f'''}{6} +O(h^4),
-\ee
+\end{equation}
 %
 which we rewrite as
 %
@@ -155,9 +155,9 @@ See text for further discussion. \label{fig:derivstep}}
 We could also define five-points formulae by expanding to
 two steps on each side of $x_0$. Using a Taylor expansion around
 $x_0$ in a region $[-2h,2h]$ we have  
-\be \label{eq:2htaylor}
+\begin{equation} \label{eq:2htaylor}
   f_{\pm 2h}=f_0\pm 2hf'+2h^2f''\pm\frac{4h^3f'''}{3} +O(h^4).
-\ee
+\end{equation}
 Using Eqs.~(\ref{eq:htaylor})  and (\ref{eq:2htaylor}), multiplying $f_h$ and $f_{-h}$ by a factor of
 $8$ and subtracting $(8f_h-f_{2h})-(8f_{-h}-f_{-2h})$ we arrive at  
 a first derivative given by 
@@ -176,15 +176,15 @@ always to strike a balance between numerical accurary and the time needed to ach
 
 It is possible to show that the widely used formulae for the first
 and second derivatives of a function can be written as
-\be
+\begin{equation}
    \frac{f_h-f_{-h}}{2h}=f'_0+\sum_{j=1}^{\infty}\frac{f_0^{(2j+1)}}{(2j+1)!}h^{2j},
 \label{eq:firstderivative}
-\ee
+\end{equation}
 and
-\be
+\begin{equation}
  \frac{ f_h -2f_0 +f_{-h}}{h^2}=f_0''+2\sum_{j=1}^{\infty}\frac{f_0^{(2j+2)}}{(2j+2)!}h^{2j},
   \label{eq:seconderivative}
-\ee
+\end{equation}
 and we note that in both cases the error goes like $O(h^{2j})$. 
 These expressions will also be used when we evaluate integrals.
 
@@ -192,12 +192,12 @@ To show this for the first and second derivatives
 starting with the three points
 $f_{-h}=f(x_0-h)$, $f_0=f(x_0)$ and $f_h=f(x_0+h)$, we have that the 
 Taylor expansion around $x=x_0$ gives
-\be
+\begin{equation}
    a_{-h}f_{-h}+a_0f_{0}+a_hf_{h}=
    a_{-h}\sum_{j=0}^{\infty}\frac{f_0^{(j)}}{j!}(-h)^j+a_0f_0+
    a_{h}\sum_{j=0}^{\infty}\frac{f_0^{(j)}}{j!}(h)^j,
    \label{eq:aundet}
-\ee
+\end{equation}
 where $a_{-h}$, $a_0$ and $a_h$ are unknown constants to be chosen so that
 $a_{-h}f_{-h}+a_0f_{0}+a_hf_{h}$ is the best possible approximation
 for $f_0'$ and $f_0''$. 
@@ -936,7 +936,7 @@ the relative error starts increasing and our computed derivative with
 a step size $log_{10}(h)<  -4$, may no longer be reliable.
 \begin{figure}
 \begin{center}
-\input{figures/lossofprecision}
+%\input{figures/lossofprecision}
 \end{center}
 \caption{Log-log plot of the relative error of the second derivative of $\exp{(x)}$ 
 as function of decreasing step lengths $h$. The second derivative
@@ -1086,16 +1086,16 @@ The cubic spline interpolation approach is discussed in chapter \ref{chap:linalg
 $y_0=f(x_0),y_1=f(x_1),\dots,y_N=f(x_N)$ where none of the $x_i$ values are equal.
 We wish to determine
 a polynomial of degree $n$ so that
-\be
+\begin{equation}
   P_N(x_i)=f(x_i)=y_i, \hspace{1cm} i=0,1,\dots, N
   \label{eq:poly1}
-\ee
+\end{equation}
 for our data points. 
 If we then write $P_N$ on the form
-\be
+\begin{equation}
    P_N(x)=a_0+a_1(x-x_0)+a_2(x-x_0)(x-x_1) + \dots+ a_N(x-x_0)\dots(x-x_{N-1}),
    \label{eq:poly2}
-\ee
+\end{equation}
 then Eq.\ (\ref{eq:poly1}) results in a triangular system of equations
 \[
       \begin{array}{ccccc} a_0&=f(x_0)  &  &  \\
@@ -1126,10 +1126,10 @@ and so forth. It is easy to see from the above equations that when
 $x=x_i$ we have that $f(x)=f(x_i)$
 It is also possible to show that the approximation error (or rest term) is given by
 the second term on the right hand side of 
-\be
+\begin{equation}
     f(x)=P_N(x)+\frac{\omega_{N+1}(x)f^{(N+1)}(\xi)}{(N+1)!}.
     \label{eq:poly3}
-\ee
+\end{equation}
 The function $\omega_{N+1}(x)$ is given by
 \[
    \omega_{N+1}(x)=a_N(x-x_0)\dots(x-x_{N}),
@@ -1167,10 +1167,10 @@ is a divided difference of second order. We note that the coefficient
 \] 
 is determined from $f_{0x}$ by setting $x=x_1$. We can continue along this line
 and define the divided difference of order $k+1$ as 
-\be
+\begin{equation}
    f_{01\dots kx}=\frac{f_{01\dots (k-1)x}-f_{01\dots(k-1)k}}{x-x_k},
    \label{eq:divdiff}
-\ee
+\end{equation}
 meaning that the corresponding coefficient $a_k$ is given by
 \[ 
    a_k=f_{01\dots(k-1)k}.
@@ -1300,10 +1300,10 @@ and
    D(h/2)=D(0)+ \frac{a_1h^2}{4}+\frac{a_2h^4}{16}+\frac{a_3h^6}{64} +\dots,
 \]
 and we can eliminate the term with $a_1$ by combining
-\be
+\begin{equation}
 D(h/2)+\frac{D(h/2)-D(h)}{3}=D(0)-\frac{a_2h^4}{4}-\frac{5a_3h^6}{16}.
 \label{eq:lesserror}
-\ee
+\end{equation}
 We see that this approximation to $D(0)$ is better than the two previous ones since
 the error now goes like $O(h^4)$. 
 As an example, let us evaluate the first derivative of a function $f$ 
@@ -1334,10 +1334,10 @@ where the elements in the first column represent the given approximations
 This means that $D_1^{(0)}$ in the second column and row is the result
 of the extrapolation based on $D_0^{(0)}$ and $D_0^{(1)}$.
 An element $D_m^{(k)}$ in the table is then given by
-\be
+\begin{equation}
    D_m^{(k)}=D_{m-1}^{(k)}+ \frac{D_{m-1}^{(k+1)}-D_{m-1}^{(k)}}{4^m-1}
    \label{eq:richardsson_ext}
-\ee
+\end{equation}
 with $m > 0$. 
 
 In Table \ref{tab:secderivchap3}
@@ -3064,8 +3064,7 @@ g.hardcopy(filename="relerror.ps",terminal="postscript", enhanced=1, color=1)
 
 
 \section{Exercises}
-%\subsection*{Exercise 3.1: Computing derivatives numerically}
-\begin{prob}
+\subsection*{Computing derivatives numerically}
 We want you to compute the first derivative of
 \[
    f(x)=tan^{-1}(x) 
@@ -3120,55 +3119,48 @@ for both single and double precision.
 Plot the results and see if you can determine empirically 
 the behavior of the total error as function of $h$.
 \end{enumerate}
-\end{prob}
 
 
-%\subsection*{prob 3.2: C++ class}
-\begin{prob}
+
+\subsection*{prob 3.2: C++ class}
 Modify your program from the previous exercise in order to include both Richardson's deferred
 extrapolation algorithm from Eq.~(\ref{eq:richardsson_ext}) and Neville's interpolation algorithm
 discussed in program4.cpp in this chapter. 
 You will need to write a program for Richardson's algorithm.
 Discuss and comment your results. 
 
-\end{prob}
 
-
-\begin{prob}
 Use the results from your program for the calculation of derivatives to 
 make a table of the derivatives as a function of the step length $h$. 
 Write thereafter a program which reads these results and performs a numerical interpolation
 using Lagrange's formula from Eq.~(\ref{eq:lagrange}) up to a polynomial of degree five.
 Compare the tabulated values with those obtained using Lagrange's formula.
 Compare also these results with those obtained using Neville's algorithm and comment your results. 
-\end{prob}
 
 
-%\subsection*{prob 3.2: C++ class}
-\begin{prob}
+\subsection*{C++ class}
 Write your own  C++ class which allows for operations on complex variables, such as addition, subtraction, 
 multiplication and division.
-\end{prob}
 
 
 
-%\subsection*{prob 3.2: C++ class}
-\begin{prob}
+
+\subsection*{C++ class}
 Write a C++ class which allows for treating one-dimensional arrays for integer, real and
 complex variables. Use your complex class from the previous exercise.
 Use this class to perform simple vector addition and vector multiplication operations.
-\end{prob}
 
 
-\begin{prob}
-%\subsection*{prob 3.3: C++ class}
+
+
+\subsection*{C++ class}
 Write a C++ class which sets up various approximations to the derivatives and repeat 
 exercise 3.1 using this class.  
-\end{prob}
 
 
-\begin{prob}
-%\subsection*{prob 3.3: C++ class}
+
+
+\subsection*{C++ class}
 Write a C++ class which sets up the position for a given particle in arbitrary dimensions.
 Write thereafter a program which uses this class in order to set up the electron coordinates 
 for the ten electrons in the neutral neon atom. This is a three-dimensional system.
@@ -3178,18 +3170,17 @@ of the relative distance between two electrons
 \[
 |{\bf r}_i-{\bf r}_j|=\sqrt{(x_i-x_j)^2+(y_i-y_j)^2+(z_i-z_j)^2}.
 \] 
-\end{prob}
 
 
-\begin{prob}
-%\subsection*{prob 3.3: C++ class}
+
+
+\subsection*{C++ class}
 Use the class from the previous exercise to write a program which reads in the position of all planets in the solar system, using the sun as the center of mass of the system.
 Let this program calculate the distance from the sun to all planets, and the relative distance between all planets.
-\end{prob}
 
 
-\begin{prob}
-%\subsection*{prob 3.3: C++ class}
+
+\subsection*{C++ class}
 Use and extend the vector class discussed in this chapter 
 to compute the 
 $1$ and $2$ vector norms given by
@@ -3215,7 +3206,7 @@ and the equality is obeyed only if ${\bf x}$ and ${\bf y}$ are linearly dependen
 Your program
 should be able to read from file two tabulated vectors, or, alternatively let the program
 set them up.
-\end{prob}
+
 
 
 \bibliographystyle{plain}
